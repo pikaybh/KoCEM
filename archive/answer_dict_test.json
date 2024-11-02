@@ -1,0 +1,42 @@
+{
+    "test_Domain_Knowledge_54": {
+        "question_type": "multiple-choice",
+        "ground_truth": "A"
+    },
+    "test_Domain_Knowledge_12": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Domain_Knowledge_3004": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Domain_Knowledge_915": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Domain_Knowledge_837": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Domain_Knowledge_8": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Domain_Knowledge_1728": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Domain_Knowledge_1140": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Domain_Knowledge_3275": {
+        "question_type": "multiple-choice",
+        "ground_truth": "D"
+    },
+    "test_Domain_Knowledge_3506": {
+        "question_type": "multiple-choice",
+        "ground_truth": "A"
+    }
+}

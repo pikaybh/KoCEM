@@ -1,0 +1,42 @@
+﻿2024-11-01 15:33:06,862 [main_parse_and_eval, line 62] INFO: Evaluating: Comprehensive_Reasoning
+2024-11-01 15:34:06,453 [main_parse_and_eval, line 65] INFO: Evaluating: Comprehensive_Reasoning
+2024-11-01 15:34:06,454 [main_parse_and_eval, line 67] INFO: Skipping Comprehensive_Reasoning for not found
+2024-11-01 15:34:06,454 [main_parse_and_eval, line 65] INFO: Evaluating: Domain_Knowledge
+2024-11-01 15:34:06,454 [main_parse_and_eval, line 67] INFO: Skipping Domain_Knowledge for not found
+2024-11-01 15:34:06,454 [main_parse_and_eval, line 65] INFO: Evaluating: Domain_Reasoning
+2024-11-01 15:34:06,455 [main_parse_and_eval, line 67] INFO: Skipping Domain_Reasoning for not found
+2024-11-01 15:34:06,455 [main_parse_and_eval, line 65] INFO: Evaluating: Drawing_Interpretation
+2024-11-01 15:34:06,456 [main_parse_and_eval, line 67] INFO: Skipping Drawing_Interpretation for not found
+2024-11-01 15:34:06,456 [main_parse_and_eval, line 65] INFO: Evaluating: Industry_Jargon
+2024-11-01 15:34:06,456 [main_parse_and_eval, line 67] INFO: Skipping Industry_Jargon for not found
+2024-11-01 15:34:06,456 [main_parse_and_eval, line 65] INFO: Evaluating: Standard_Nomenclature
+2024-11-01 15:34:06,456 [main_parse_and_eval, line 67] INFO: Skipping Standard_Nomenclature for not found
+2024-11-01 18:12:51,149 [parse_and_eval, line 62] INFO: Evaluating: Testen
+2024-11-01 18:12:51,169 [parse_and_eval, line 64] INFO: Skipping Testen for not found
+2024-11-01 18:19:08,958 [parse_and_eval, line 62] INFO: Evaluating: Testen
+2024-11-01 18:19:08,958 [parse_and_eval, line 64] INFO: Skipping Testen for not found
+2024-11-01 18:21:18,467 [parse_and_eval, line 62] INFO: Evaluating: Testen
+2024-11-01 18:21:18,468 [parse_and_eval, line 64] INFO: Skipping Testen for not found
+2024-11-01 18:42:47,952 [parse_and_eval, line 62] INFO: Evaluating: Testen
+2024-11-01 18:42:47,952 [parse_and_eval, line 64] INFO: Skipping Testen for not found
+2024-11-01 18:57:20,623 [parse_and_eval, line 62] INFO: Evaluating: Testen
+2024-11-01 18:57:20,623 [parse_and_eval, line 64] INFO: Skipping Testen for not found
+2024-11-01 23:56:01,995 [parse_and_eval, line 62] INFO: Evaluating: Testen
+2024-11-01 23:56:01,996 [parse_and_eval, line 64] INFO: Skipping Testen for not found
+2024-11-01 23:56:26,850 [parse_and_eval, line 63] INFO: Evaluating: Testen
+2024-11-01 23:56:26,851 [parse_and_eval, line 65] INFO: Skipping Testen for not found
+2024-11-02 00:43:29,325 [parse_and_eval, line 62] INFO: Evaluating: Testen
+2024-11-02 00:43:29,325 [parse_and_eval, line 64] INFO: Skipping Testen for not found
+2024-11-02 01:06:03,065 [parse_and_eval, line 62] INFO: Evaluating: Testen
+2024-11-02 01:06:03,065 [parse_and_eval, line 64] INFO: Skipping Testen for not found
+2024-11-02 01:49:20,428 [parse_and_eval, line 62] INFO: Evaluating: Testen
+2024-11-02 01:49:20,448 [parse_and_eval, line 99] INFO: Num of valid samples: 10, Expected Num: 10
+2024-11-02 01:58:14,268 [parse_and_eval, line 62] INFO: Evaluating: Testen
+2024-11-02 01:58:14,274 [parse_and_eval, line 99] INFO: Num of valid samples: 10, Expected Num: 10
+2024-11-02 02:21:03,424 [parse_and_eval, line 62] INFO: Evaluating: Testen
+2024-11-02 02:22:34,377 [parse_and_eval, line 62] INFO: Evaluating: Testen
+2024-11-02 02:22:34,378 [parse_and_eval, line 99] INFO: Num of valid samples: 10, Expected Num: 10
+2024-11-02 02:24:24,603 [parse_and_eval, line 62] INFO: Evaluating: Testen
+2024-11-02 02:24:24,603 [parse_and_eval, line 99] INFO: Num of valid samples: 10, Expected Num: 10
+2024-11-02 03:07:00,374 [parse_and_eval, line 62] INFO: Evaluating: Testen
+2024-11-02 03:07:00,382 [parse_and_eval, line 98] INFO: Num of valid samples: 10, Expected Num: 10

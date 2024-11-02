@@ -1,0 +1,15 @@
+task_instructions:
+- ""
+multi_choice_example_format:
+- "{}
+
+{}
+
+주어진 선택지에서 해당 문자로 대답하세요."
+
+short_ans_example_format:
+- "{}
+
+한 단어나 문구로 질문에 대답하세요."
+temperature:
+- 0
