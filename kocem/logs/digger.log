@@ -43,3 +43,11 @@ Saved gold/answer_dict_val.json
 Saved gold/answer_dict_extra.json
 2024-11-03 17:21:45,109 [digger, line 95] INFO: 
 Saved gold/answer_dict_dev.json
+2024-11-03 20:26:33,132 [digger, line 95] INFO: 
+Saved gold/answer_dict_dev.json
+2024-11-03 20:32:33,188 [digger, line 95] INFO: 
+Saved gold/answer_dict_test.json
+2024-11-03 20:38:27,098 [digger, line 95] INFO: 
+Saved gold/answer_dict_val.json
+2024-11-03 20:44:19,420 [digger, line 95] INFO: 
+Saved gold/answer_dict_extra.json

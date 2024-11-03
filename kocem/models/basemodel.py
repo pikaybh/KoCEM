@@ -27,14 +27,12 @@ class Gacha(Template):
     def __init__(self, system_prompt: Optional[str] = "", *args, **kwargs) -> None:
         super().__init__(system_prompt)
 
-    def run(self, *args, **kwargs) -> None:
-        """
-        Model 별 돌리는 방법에 맞게 편집
-        """
-        ...
-
     def __call__(self, sample) -> str:
         """
         Strip from `self.run()` result
         """
         return choice(sample)
+
+    @staticmethod
+    def image_processor(self, *args, **kwargs) -> None:
+        ...

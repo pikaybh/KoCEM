@@ -3,6 +3,7 @@
 import os
 import re
 import logging
+from random import choice
 
 import json
 import yaml
@@ -146,7 +147,8 @@ def save_args(args, path_dir):
 def construct_prompt(sample, config):
     logger.debug(f"{sample = }")
     question = sample['question']
-    options = str(sample['options']).replace("\n ", ", ")
+    options = str(sample['options']).replace("\n ", ", ").replace("""
+""", ", ")
     logger.debug(f"1{options = }")
     options = eval(options)  # eval(sample['options'])
     logger.debug(f"2{options = }")
@@ -171,8 +173,11 @@ def construct_prompt(sample, config):
             res_dict['final_input_prompt'] = config['task_instructions'].strip() + '\n\n' + empty_prompt
         else:
             res_dict['final_input_prompt'] = empty_prompt
-
-        res_dict['gt_content'] = options[ord(sample['answer'].upper()) - ord('A')]
+        try:
+            res_dict['gt_content'] = options[ord(sample['answer'].upper()) - ord('A')]
+        except:
+            res_dict['gt_content'] = choice(["A", "B", "C", "D", "E"])
+            logger.error(f"{res_dict['gt_content'] = }, {options = }")
     else:
         empty_prompt_sample_structure = config['short_ans_example_format']
         empty_prompt = empty_prompt_sample_structure.format(question)
