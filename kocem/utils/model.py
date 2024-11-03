@@ -97,6 +97,12 @@ def llava_image_processor(raw_image, vis_processors=None):
 ########################################################################
 
 
+CHECK_MODEL = {
+    "machine" : ["canny"],
+    "openai" : ["gpt-4o"],
+    "hf" : []
+}
+
 
 def call_engine_df(sample, model):
     prompt = sample['final_input_prompt']
