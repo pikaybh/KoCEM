@@ -1,4 +1,3 @@
-import base64
 from random import random
 from typing import Dict, Union
 import logging

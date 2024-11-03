@@ -1,0 +1,45 @@
+﻿2024-11-02 20:55:06,374 [digger, line 85] ERROR: Failed to load dataset for subject Architectural_Planning: [{'expected': SplitInfo(name='dev', num_bytes=0, num_examples=0, shard_lengths=None, dataset_name=None), 'recorded': SplitInfo(name='dev', num_bytes=1270, num_examples=3, shard_lengths=None, dataset_name='ko_cem')}, {'expected': SplitInfo(name='extra', num_bytes=0, num_examples=0, shard_lengths=None, dataset_name=None), 'recorded': SplitInfo(name='extra', num_bytes=1163391, num_examples=1602, shard_lengths=None, dataset_name='ko_cem')}, {'expected': SplitInfo(name='test', num_bytes=0, num_examples=0, shard_lengths=None, dataset_name=None), 'recorded': SplitInfo(name='test', num_bytes=323625, num_examples=468, shard_lengths=None, dataset_name='ko_cem')}, {'expected': SplitInfo(name='val', num_bytes=0, num_examples=0, shard_lengths=None, dataset_name=None), 'recorded': SplitInfo(name='val', num_bytes=34199, num_examples=41, shard_lengths=None, dataset_name='ko_cem')}]
+2024-11-02 20:56:44,245 [digger, line 86] ERROR: Failed to load dataset for subject Architectural_Planning: [{'expected': SplitInfo(name='dev', num_bytes=0, num_examples=0, shard_lengths=None, dataset_name=None), 'recorded': SplitInfo(name='dev', num_bytes=1270, num_examples=3, shard_lengths=None, dataset_name='ko_cem')}, {'expected': SplitInfo(name='extra', num_bytes=0, num_examples=0, shard_lengths=None, dataset_name=None), 'recorded': SplitInfo(name='extra', num_bytes=1163391, num_examples=1602, shard_lengths=None, dataset_name='ko_cem')}, {'expected': SplitInfo(name='test', num_bytes=0, num_examples=0, shard_lengths=None, dataset_name=None), 'recorded': SplitInfo(name='test', num_bytes=323625, num_examples=468, shard_lengths=None, dataset_name='ko_cem')}, {'expected': SplitInfo(name='val', num_bytes=0, num_examples=0, shard_lengths=None, dataset_name=None), 'recorded': SplitInfo(name='val', num_bytes=34199, num_examples=41, shard_lengths=None, dataset_name='ko_cem')}]
+2024-11-02 21:43:01,036 [digger, line 83] INFO: Loaded dataset for subject: Architectural_Planning
+2024-11-02 21:43:07,917 [digger, line 83] INFO: Loaded dataset for subject: Building_System
+2024-11-02 21:44:55,550 [digger, line 83] INFO: Loaded dataset for subject: Architectural_Planning
+2024-11-02 21:45:00,608 [digger, line 83] INFO: Loaded dataset for subject: Building_System
+2024-11-02 21:46:53,784 [digger, line 83] INFO: Loaded dataset for subject: Architectural_Planning
+2024-11-02 21:46:58,691 [digger, line 83] INFO: Loaded dataset for subject: Building_System
+2024-11-02 21:47:04,060 [digger, line 83] INFO: Loaded dataset for subject: Construction_Management
+2024-11-02 21:47:09,571 [digger, line 83] INFO: Loaded dataset for subject: Interior
+2024-11-02 21:47:14,896 [digger, line 83] INFO: Loaded dataset for subject: Materials
+2024-11-02 21:47:20,899 [digger, line 83] INFO: Loaded dataset for subject: Structural_Engineering
+2024-11-02 21:48:28,226 [digger, line 83] INFO: Loaded dataset for subject: Safety_Management
+2024-11-02 21:49:10,982 [digger, line 83] INFO: Loaded dataset for subject: Architectural_Planning
+2024-11-02 21:49:15,965 [digger, line 83] INFO: Loaded dataset for subject: Building_System
+2024-11-02 21:49:20,365 [digger, line 83] INFO: Loaded dataset for subject: Construction_Management
+2024-11-02 21:49:25,770 [digger, line 83] INFO: Loaded dataset for subject: Interior
+2024-11-02 21:49:30,310 [digger, line 83] INFO: Loaded dataset for subject: Materials
+2024-11-02 21:49:34,761 [digger, line 83] INFO: Loaded dataset for subject: Structural_Engineering
+2024-11-02 21:49:39,261 [digger, line 83] INFO: Loaded dataset for subject: Safety_Management
+2024-11-02 22:16:04,164 [digger, line 94] INFO: Saved gold/answer_dict_dev.json
+2024-11-02 22:16:27,530 [digger, line 94] INFO: Saved gold/answer_dict_dev.json
+2024-11-02 22:16:50,788 [digger, line 94] INFO: Saved gold/answer_dict_dev.json
+2024-11-02 22:23:04,361 [digger, line 95] INFO: Saved gold/answer_dict_dev.json
+2024-11-02 22:25:23,945 [digger, line 95] INFO: Saved gold/answer_dict_test.json
+2024-11-02 22:28:48,980 [digger, line 95] INFO: Saved gold/answer_dict_val.json
+2024-11-02 22:32:06,960 [digger, line 95] INFO: Saved gold/answer_dict_extra.json
+2024-11-03 14:17:35,954 [digger, line 95] INFO: 
+Saved gold/answer_dict_dev.json
+2024-11-03 14:18:09,696 [digger, line 95] INFO: 
+Saved gold/answer_dict_dev.json
+2024-11-03 14:18:43,324 [digger, line 95] INFO: 
+Saved gold/answer_dict_dev.json
+2024-11-03 14:24:16,068 [digger, line 95] INFO: 
+Saved gold/answer_dict_dev.json
+2024-11-03 14:33:34,361 [digger, line 95] INFO: 
+Saved gold/answer_dict_dev.json
+2024-11-03 14:38:51,545 [digger, line 95] INFO: 
+Saved gold/answer_dict_test.json
+2024-11-03 14:44:04,390 [digger, line 95] INFO: 
+Saved gold/answer_dict_val.json
+2024-11-03 14:48:21,852 [digger, line 95] INFO: 
+Saved gold/answer_dict_extra.json
+2024-11-03 17:21:45,109 [digger, line 95] INFO: 
+Saved gold/answer_dict_dev.json

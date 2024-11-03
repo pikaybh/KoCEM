@@ -2,37 +2,50 @@
 
 import os
 import re
+import logging
 
 import json
 import yaml
 
 
 DOMAIN_CAT2SUB_CAT = {
-    'Domain Knowledge': ['Materials', 'Structural_Engineering']
-}
-{
     'Construction Terminology': ['Industry_Jargon', 'Standard_Nomenclature'],
     'Domain Knowledge': ['Interior', 'Materials', 'Safety_Management', 'Architectural_Planning', 'Construction_Management', 'Structural_Engineering', 'Building_System'],
-    'Domain Reasoning': ['Cost_Estimating', 'Quality_Control', 'Structural_Engineering', 'Project_Management'],
-    'Drawing Interpretation': ['위치', '치수', '설계'],
-    'Comprehensive Understanding': ['나열', '분류', '산출', '오류'],
+    'Domain Reasoning': ['Domain_Reasoning'],
+    'Drawing Interpretation': ['Drawing_Interpretation'],
+    # 'Comprehensive Understanding': ['Comprehensive_Understanding']
 }
-
 
 CAT_SHORT2LONG = {
     "ap" : "Architectural_Planning",
     "bs" : "Building_System",
-    "ce" : "Cost_Estimating",
     "cm" : "Construction_Management",
+    # "cu" : "Comprehensive_Understanding",
+    "di" : "Drawing_Interpretation",
+    "dr" : "Domain_Reasoning",
     "ij" : "Industry_Jargon",
     "int": "Interior",
     "mtl": "Materials",
-    "pm" : "Project_Management",
-    "qc" : "Quality_Control",
     "se" : "Structural_Engineering",
     "sm" : "Safety_Management",
     "sn" : "Standard_Nomenclature"
 }
+
+
+# Root 
+logger_name = 'utils.data'
+logger = logging.getLogger(logger_name)
+logger.setLevel(logging.DEBUG)
+# File Handler
+file_handler = logging.FileHandler(f'logs/{logger_name}.log', encoding='utf-8-sig')
+file_handler.setLevel(logging.DEBUG)
+file_handler.setFormatter(logging.Formatter(r'%(asctime)s [%(name)s, line %(lineno)d] %(levelname)s: %(message)s'))
+logger.addHandler(file_handler)
+# Stream Handler
+stream_handler = logging.StreamHandler()
+stream_handler.setLevel(logging.INFO)
+stream_handler.setFormatter(logging.Formatter(r'%(message)s'))
+logger.addHandler(stream_handler)
 
 
 """
@@ -131,8 +144,12 @@ def save_args(args, path_dir):
 
 # DATA PROCESSING
 def construct_prompt(sample, config):
+    logger.debug(f"{sample = }")
     question = sample['question']
-    options = eval(str(sample['options']))
+    options = str(sample['options']).replace("\n ", ", ")
+    logger.debug(f"1{options = }")
+    options = eval(options)  # eval(sample['options'])
+    logger.debug(f"2{options = }")
     example = ""
     if sample['question_type'] == 'multiple-choice':
         start_chr = 'A'
@@ -166,6 +183,8 @@ def construct_prompt(sample, config):
         else:
             res_dict['final_input_prompt'] = empty_prompt
         res_dict['gt_content'] = sample['answer']
+
+    logger.debug(f"{res_dict = }")
 
     res_dict.update(sample)
     return res_dict

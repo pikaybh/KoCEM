@@ -1,0 +1,44 @@
+[
+    {
+        "id": "dev_Domain_Reasoning_1",
+        "question_type": "multiple-choice",
+        "answer": "A",
+        "response": "B",
+        "parsed_pred": "B",
+        "index2ans": {
+            "A": "적합",
+            "B": "부적합"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Domain_Reasoning_2",
+        "question_type": "multiple-choice",
+        "answer": "D",
+        "response": "D",
+        "parsed_pred": "D",
+        "index2ans": {
+            "A": "$ M_u^- = 600 \\, \text{kN} \\cdot \text{m} $",
+            "B": "$ M_u^+ = 310 \\, \text{kN} \\cdot \text{m} $",
+            "C": "$ M_u^+ = 320 \\, \text{kN} \\cdot \text{m} $",
+            "D": "$ M_u^- = 585 \\, \text{kN} \\cdot \text{m} $",
+            "E": "$ M_u^- = 550 \\, \text{kN} \\cdot \text{m} $"
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Domain_Reasoning_3",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "response": "C",
+        "parsed_pred": "C",
+        "index2ans": {
+            "A": "0.7271",
+            "B": "0.2482",
+            "C": "0.8991",
+            "D": "0.5533",
+            "E": "0.6329"
+        },
+        "judge": "Correct"
+    }
+]

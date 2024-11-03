@@ -1,0 +1,86 @@
+[
+    {
+        "id": "dev_Interior_816",
+        "question_type": "multiple-choice",
+        "answer": "A",
+        "response": "A",
+        "parsed_pred": "A",
+        "index2ans": {
+            "A": "르 꼬르뷔지에 –구겐하임 미술관",
+            "B": "프랭크 로이드 라이트 –낙수장",
+            "C": "안토니오 가우디 –카사밀라",
+            "D": "윌리암 모리스 –레드 하우스"
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Interior_948",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "response": "C",
+        "parsed_pred": "C",
+        "index2ans": {
+            "A": "보의 지점으로부터 스팬(span)의 1/2되는 곳",
+            "B": "압축력이 가장 적은 곳",
+            "C": "인장력이 가장 적은 곳",
+            "D": "보의 지점으로부터 스팬(span)의 1/4되는 곳"
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Interior_799",
+        "question_type": "multiple-choice",
+        "answer": "B",
+        "response": "A",
+        "parsed_pred": "A",
+        "index2ans": {
+            "A": "화란식 쌓기",
+            "B": "영식 쌓기",
+            "C": "불식 쌓기",
+            "D": "미식 쌓기"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Interior_789",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "response": "C",
+        "parsed_pred": "C",
+        "index2ans": {
+            "A": ".보의 지점으로부터 스팬(span)의 1/2 되는 곳",
+            "B": "압축력이 가장 적은 곳",
+            "C": "인장력이 가장 적은 곳",
+            "D": "보의 지점으로부터 스팬(span)의 1/4 되는 곳"
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Interior_477",
+        "question_type": "multiple-choice",
+        "answer": "A",
+        "response": "B",
+        "parsed_pred": "B",
+        "index2ans": {
+            "A": "자동화재속보설비",
+            "B": "인공소생기",
+            "C": "비상조명등",
+            "D": "완강기"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Interior_852",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "response": "C",
+        "parsed_pred": "C",
+        "index2ans": {
+            "A": "펜덴티브 돔(pendentive dome)",
+            "B": "부주두(dosseret)",
+            "C": "플라잉 버트레스(flying buttress)",
+            "D": "모자이크(mosaic)"
+        },
+        "judge": "Correct"
+    }
+]

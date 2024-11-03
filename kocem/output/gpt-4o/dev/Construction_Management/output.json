@@ -1,0 +1,102 @@
+[
+    {
+        "id": "dev_Construction_Management_328",
+        "question_type": "multiple-choice",
+        "answer": "A",
+        "all_choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "index2ans": {
+            "A": "코너비드",
+            "B": "논슬립",
+            "C": "인서트",
+            "D": "드라이비트"
+        },
+        "explanation": "",
+        "full_completions": "(A) 코너비드",
+        "response": "A"
+    },
+    {
+        "id": "dev_Construction_Management_291",
+        "question_type": "multiple-choice",
+        "answer": "A",
+        "all_choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "index2ans": {
+            "A": "중량 콘크리트",
+            "B": "매스 콘크리트",
+            "C": "팽창 콘크리트",
+            "D": "수밀 콘크리트"
+        },
+        "explanation": "[중량 콘크리트]방사선을 차단할 목적으로 사용되는 콘크리트로서 주로 중량골재를 사용한다.",
+        "full_completions": "(A) 중량 콘크리트",
+        "response": "A"
+    },
+    {
+        "id": "dev_Construction_Management_682",
+        "question_type": "multiple-choice",
+        "answer": "D",
+        "all_choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "index2ans": {
+            "A": "방화",
+            "B": "방부",
+            "C": "방충",
+            "D": "접합"
+        },
+        "explanation": "",
+        "full_completions": "(D) 접합",
+        "response": "D"
+    },
+    {
+        "id": "dev_Construction_Management_324",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "all_choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "index2ans": {
+            "A": "조립율(FM : fineness modulus)",
+            "B": "수경율(HM : hydration modulus)",
+            "C": "분말도(fineness)",
+            "D": "슬럼프치(slump)"
+        },
+        "explanation": "[시멘트 분말도(비표면적:cm2/g)]시멘트 분말도는 입자의 작은 정도를 나타내는 것으로 분말도가 크다는 것은 입자가 작고 비표면적이 크다는 뜻이다.",
+        "full_completions": "(C) 분말도(fineness)",
+        "response": "C"
+    },
+    {
+        "id": "dev_Construction_Management_431",
+        "question_type": "multiple-choice",
+        "answer": "A",
+        "all_choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "index2ans": {
+            "A": "조절줄눈(control joint)",
+            "B": "시공줄눈(construction joint)",
+            "C": "신축줄눈(expansion joint)",
+            "D": "콜드조인트(cold joint)"
+        },
+        "explanation": "",
+        "full_completions": "(A) 조절줄눈(control joint)",
+        "response": "A"
+    }
+]

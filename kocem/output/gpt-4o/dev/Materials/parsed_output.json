@@ -1,0 +1,114 @@
+[
+    {
+        "id": "dev_Materials_1937",
+        "question_type": "multiple-choice",
+        "answer": "D",
+        "response": "D",
+        "parsed_pred": "D",
+        "index2ans": {
+            "A": "구조재의 보강",
+            "B": "방수",
+            "C": "보온",
+            "D": "장식"
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_1978",
+        "question_type": "multiple-choice",
+        "answer": "A",
+        "response": "A",
+        "parsed_pred": "A",
+        "index2ans": {
+            "A": "자외선 차단유리",
+            "B": "열선 흡수유리",
+            "C": "열선 반사유리",
+            "D": "자외선 투과유리"
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_107",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "response": "C",
+        "parsed_pred": "C",
+        "index2ans": {
+            "A": "요소수지",
+            "B": "아크릴수지",
+            "C": "실리콘수지",
+            "D": "멜라민수지"
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_3874",
+        "question_type": "multiple-choice",
+        "answer": "A",
+        "response": "A",
+        "parsed_pred": "A",
+        "index2ans": {
+            "A": "프리즘 글라스",
+            "B": "복층 유리",
+            "C": "망입 유리",
+            "D": "스테인드 글라스"
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_4941",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "response": "C",
+        "parsed_pred": "C",
+        "index2ans": {
+            "A": "목재의 제강도 중 섬유 평행방향의 인장강도가 가장 크다.",
+            "B": "목재를 기둥으로 사용할 때 일반적으로 목재는 섬유의 평행방향으로 압축력을 받는다.",
+            "C": "함수율이 섬유포화점 이상으로 클 경우 함수율 변동에 따른 강도변화가 크다.",
+            "D": "목재의 인장강도 시험 시 죽은 옹이의 면적을 뺀 것을 재단면으로 가정한다."
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_2240",
+        "question_type": "multiple-choice",
+        "answer": "B",
+        "response": "D",
+        "parsed_pred": "D",
+        "index2ans": {
+            "A": "열전도율은 전반적으로 적은 편이고 비중이 적은 것 일수록 열전도율도 적다.",
+            "B": "비중이 큰 목재일수록 신축이 적다.",
+            "C": "비중이 큰 목재는 강도도 크다.",
+            "D": "함수율이 섬유포화점 이상인 경우를 생목(生木)이라 한다."
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Materials_4127",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "response": "C",
+        "parsed_pred": "C",
+        "index2ans": {
+            "A": "대리석은 강도는 높지만 내화성이 낮고 풍화되기 쉽다.",
+            "B": "현무암은 내화성은 좋으나 가공이 어려우므로 부순돌로 많이 사용된다.",
+            "C": "트래버틴은 화성암의 일종으로 실내장식에 쓰인다.",
+            "D": "점판암은 얇은 판 채취가 용이하여 지붕재료로 사용된다."
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_3950",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "response": "A",
+        "parsed_pred": "A",
+        "index2ans": {
+            "A": "A : 비례한도, C : 상항복점",
+            "B": "A : 인장강도, C : 비례한도",
+            "C": "A : 비례한도, C : 하항복점",
+            "D": "A : 하항복점, C : 파괴점"
+        },
+        "judge": "Wrong"
+    }
+]

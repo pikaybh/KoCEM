@@ -10,7 +10,7 @@ from utils.eval import evaluate, parse_multi_choice_response, parse_open_respons
 
 
 def main(output_path: Optional[str] = "output/qwen_vl/total_val_output.json", 
-         answer_path: str = "answer_dict_test.json") -> None:
+         answer_path: str = "gold/answer_dict_dev.json") -> None:
     """Evaluates model output by grouping data by category and domain, and calculates accuracy metrics.
 
     Args:
@@ -77,6 +77,8 @@ def main(output_path: Optional[str] = "output/qwen_vl/total_val_output.json",
                 "answer": cat_answers[data_id]['ground_truth'],
                 "parsed_pred": parsed_pred
             })
+            if "difficulty" in calculate_ins_level_acc[data_id]:
+                examples_to_eval[-1]["difficulty"] = calculate_ins_level_acc[data_id]["difficulty"]
 
         judge_dict, metric_dict = evaluate(examples_to_eval)
         metric_dict.update({"num_example": len(examples_to_eval)})

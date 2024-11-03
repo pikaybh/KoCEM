@@ -1,0 +1,10 @@
+{
+    "splits": {
+    "dev": { "num_bytes": 1270, "num_examples": 3 },
+    "extra": { "num_bytes": 1163391, "num_examples": 1602 },
+    "test": { "num_bytes": 323625, "num_examples": 468 },
+    "val": { "num_bytes": 34199, "num_examples": 41 }
+    },
+    "download_size": 1500000,
+    "dataset_size": 1600000
+}

@@ -1,0 +1,72 @@
+[
+    {
+        "id": "dev_Building_System_3179",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "response": "C",
+        "parsed_pred": "C",
+        "index2ans": {
+            "A": "실의 용도에 따라 분류한다.",
+            "B": "실의 사용시간에 따라 분류한다.",
+            "C": "내부존은 각 층별로 한다.",
+            "D": "외부존은 방위별로 한다."
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Building_System_734",
+        "question_type": "multiple-choice",
+        "answer": "A",
+        "response": "C",
+        "parsed_pred": "C",
+        "index2ans": {
+            "A": "20분",
+            "B": "30분",
+            "C": "40분",
+            "D": "50분"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Building_System_2267",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "response": "A",
+        "parsed_pred": "A",
+        "index2ans": {
+            "A": "1Pa",
+            "B": "2Pa",
+            "C": "8Pa",
+            "D": "6Pa"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Building_System_3286",
+        "question_type": "multiple-choice",
+        "answer": "D",
+        "response": "D",
+        "parsed_pred": "D",
+        "index2ans": {
+            "A": "전기방식",
+            "B": "공기방식",
+            "C": "자기방식",
+            "D": "DDC방식"
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Building_System_3460",
+        "question_type": "multiple-choice",
+        "answer": "B",
+        "response": "B",
+        "parsed_pred": "B",
+        "index2ans": {
+            "A": "40[V]",
+            "B": "60[V]",
+            "C": "100[V]",
+            "D": "160[V]"
+        },
+        "judge": "Correct"
+    }
+]

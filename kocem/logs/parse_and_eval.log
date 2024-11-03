@@ -40,3 +40,87 @@
 2024-11-02 02:24:24,603 [parse_and_eval, line 99] INFO: Num of valid samples: 10, Expected Num: 10
 2024-11-02 03:07:00,374 [parse_and_eval, line 62] INFO: Evaluating: Testen
 2024-11-02 03:07:00,382 [parse_and_eval, line 98] INFO: Num of valid samples: 10, Expected Num: 10
+2024-11-03 08:44:24,729 [parse_and_eval, line 62] INFO: Evaluating: Architectural_Planning
+2024-11-03 08:44:24,744 [parse_and_eval, line 98] INFO: Num of valid samples: 34, Expected Num: 34
+2024-11-03 08:44:24,755 [parse_and_eval, line 62] INFO: Evaluating: Building_System
+2024-11-03 08:44:24,764 [parse_and_eval, line 98] INFO: Num of valid samples: 34, Expected Num: 34
+2024-11-03 08:44:24,766 [parse_and_eval, line 62] INFO: Evaluating: Construction_Management
+2024-11-03 08:49:10,320 [parse_and_eval, line 62] INFO: Evaluating: Architectural_Planning
+2024-11-03 08:49:10,321 [parse_and_eval, line 98] INFO: Num of valid samples: 34, Expected Num: 34
+2024-11-03 08:49:10,322 [parse_and_eval, line 62] INFO: Evaluating: Building_System
+2024-11-03 08:49:10,323 [parse_and_eval, line 98] INFO: Num of valid samples: 34, Expected Num: 34
+2024-11-03 08:49:10,324 [parse_and_eval, line 62] INFO: Evaluating: Construction_Management
+2024-11-03 08:49:10,332 [parse_and_eval, line 98] INFO: Num of valid samples: 34, Expected Num: 34
+2024-11-03 08:49:10,334 [parse_and_eval, line 62] INFO: Evaluating: Interior
+2024-11-03 08:49:10,340 [parse_and_eval, line 98] INFO: Num of valid samples: 34, Expected Num: 34
+2024-11-03 08:49:10,356 [parse_and_eval, line 62] INFO: Evaluating: Materials
+2024-11-03 08:49:10,365 [parse_and_eval, line 98] INFO: Num of valid samples: 34, Expected Num: 34
+2024-11-03 08:49:10,366 [parse_and_eval, line 62] INFO: Evaluating: Structural_Engineering
+2024-11-03 08:49:10,373 [parse_and_eval, line 98] INFO: Num of valid samples: 34, Expected Num: 34
+2024-11-03 08:49:10,376 [parse_and_eval, line 62] INFO: Evaluating: Safety_Management
+2024-11-03 08:52:22,409 [parse_and_eval, line 62] INFO: Evaluating: Architectural_Planning
+2024-11-03 08:52:22,410 [parse_and_eval, line 98] INFO: Num of valid samples: 34, Expected Num: 34
+2024-11-03 08:52:22,412 [parse_and_eval, line 62] INFO: Evaluating: Building_System
+2024-11-03 08:52:22,412 [parse_and_eval, line 98] INFO: Num of valid samples: 34, Expected Num: 34
+2024-11-03 08:52:22,414 [parse_and_eval, line 62] INFO: Evaluating: Construction_Management
+2024-11-03 08:52:22,415 [parse_and_eval, line 98] INFO: Num of valid samples: 34, Expected Num: 34
+2024-11-03 08:52:22,416 [parse_and_eval, line 62] INFO: Evaluating: Interior
+2024-11-03 08:52:22,417 [parse_and_eval, line 98] INFO: Num of valid samples: 34, Expected Num: 34
+2024-11-03 08:52:22,418 [parse_and_eval, line 62] INFO: Evaluating: Materials
+2024-11-03 08:52:22,419 [parse_and_eval, line 98] INFO: Num of valid samples: 34, Expected Num: 34
+2024-11-03 08:52:22,420 [parse_and_eval, line 62] INFO: Evaluating: Structural_Engineering
+2024-11-03 08:52:22,421 [parse_and_eval, line 98] INFO: Num of valid samples: 34, Expected Num: 34
+2024-11-03 08:52:22,422 [parse_and_eval, line 62] INFO: Evaluating: Safety_Management
+2024-11-03 08:52:22,429 [parse_and_eval, line 98] INFO: Num of valid samples: 34, Expected Num: 34
+2024-11-03 09:03:14,860 [parse_and_eval, line 62] INFO: Evaluating: Architectural_Planning
+2024-11-03 09:03:14,870 [parse_and_eval, line 98] INFO: Num of valid samples: 3, Expected Num: 3
+2024-11-03 09:03:14,871 [parse_and_eval, line 62] INFO: Evaluating: Building_System
+2024-11-03 09:03:14,872 [parse_and_eval, line 98] INFO: Num of valid samples: 5, Expected Num: 5
+2024-11-03 09:03:14,872 [parse_and_eval, line 62] INFO: Evaluating: Construction_Management
+2024-11-03 09:03:14,874 [parse_and_eval, line 98] INFO: Num of valid samples: 5, Expected Num: 5
+2024-11-03 09:03:14,875 [parse_and_eval, line 62] INFO: Evaluating: Interior
+2024-11-03 09:03:14,875 [parse_and_eval, line 98] INFO: Num of valid samples: 6, Expected Num: 6
+2024-11-03 09:03:14,876 [parse_and_eval, line 62] INFO: Evaluating: Materials
+2024-11-03 09:03:14,876 [parse_and_eval, line 98] INFO: Num of valid samples: 8, Expected Num: 8
+2024-11-03 09:03:14,877 [parse_and_eval, line 62] INFO: Evaluating: Structural_Engineering
+2024-11-03 09:03:14,878 [parse_and_eval, line 98] INFO: Num of valid samples: 2, Expected Num: 2
+2024-11-03 09:03:14,878 [parse_and_eval, line 62] INFO: Evaluating: Safety_Management
+2024-11-03 09:03:14,885 [parse_and_eval, line 98] INFO: Num of valid samples: 5, Expected Num: 5
+2024-11-03 12:58:11,512 [parse_and_eval, line 62] INFO: Evaluating: Architectural_Planning
+2024-11-03 12:58:11,547 [parse_and_eval, line 98] INFO: Num of valid samples: 3, Expected Num: 3
+2024-11-03 12:58:11,558 [parse_and_eval, line 62] INFO: Evaluating: Building_System
+2024-11-03 12:58:11,566 [parse_and_eval, line 98] INFO: Num of valid samples: 5, Expected Num: 5
+2024-11-03 12:58:11,567 [parse_and_eval, line 62] INFO: Evaluating: Construction_Management
+2024-11-03 12:58:11,575 [parse_and_eval, line 98] INFO: Num of valid samples: 5, Expected Num: 5
+2024-11-03 12:58:11,577 [parse_and_eval, line 62] INFO: Evaluating: Industry_Jargon
+2024-11-03 12:58:11,583 [parse_and_eval, line 98] INFO: Num of valid samples: 6, Expected Num: 6
+2024-11-03 12:58:11,584 [parse_and_eval, line 62] INFO: Evaluating: Interior
+2024-11-03 12:58:11,588 [parse_and_eval, line 98] INFO: Num of valid samples: 6, Expected Num: 6
+2024-11-03 12:58:11,589 [parse_and_eval, line 62] INFO: Evaluating: Materials
+2024-11-03 12:58:11,595 [parse_and_eval, line 98] INFO: Num of valid samples: 8, Expected Num: 8
+2024-11-03 12:58:11,597 [parse_and_eval, line 62] INFO: Evaluating: Structural_Engineering
+2024-11-03 12:58:11,597 [parse_and_eval, line 98] INFO: Num of valid samples: 2, Expected Num: 2
+2024-11-03 12:58:11,598 [parse_and_eval, line 62] INFO: Evaluating: Safety_Management
+2024-11-03 12:58:11,603 [parse_and_eval, line 98] INFO: Num of valid samples: 5, Expected Num: 5
+2024-11-03 12:58:11,604 [parse_and_eval, line 62] INFO: Evaluating: Standard_Nomenclature
+2024-11-03 12:58:11,611 [parse_and_eval, line 98] INFO: Num of valid samples: 4, Expected Num: 4
+2024-11-03 14:48:41,100 [parse_and_eval, line 62] INFO: Evaluating: Architectural_Planning
+2024-11-03 14:48:41,133 [parse_and_eval, line 98] INFO: Num of valid samples: 3, Expected Num: 3
+2024-11-03 14:48:41,134 [parse_and_eval, line 62] INFO: Evaluating: Building_System
+2024-11-03 14:48:41,143 [parse_and_eval, line 98] INFO: Num of valid samples: 5, Expected Num: 5
+2024-11-03 14:48:41,143 [parse_and_eval, line 62] INFO: Evaluating: Construction_Management
+2024-11-03 14:48:41,151 [parse_and_eval, line 98] INFO: Num of valid samples: 5, Expected Num: 5
+2024-11-03 14:48:41,152 [parse_and_eval, line 62] INFO: Evaluating: Domain_Reasoning
+2024-11-03 14:48:41,153 [parse_and_eval, line 98] INFO: Num of valid samples: 3, Expected Num: 3
+2024-11-03 14:48:41,154 [parse_and_eval, line 62] INFO: Evaluating: Industry_Jargon
+2024-11-03 14:48:41,160 [parse_and_eval, line 98] INFO: Num of valid samples: 6, Expected Num: 6
+2024-11-03 14:48:41,161 [parse_and_eval, line 62] INFO: Evaluating: Interior
+2024-11-03 14:48:41,166 [parse_and_eval, line 98] INFO: Num of valid samples: 6, Expected Num: 6
+2024-11-03 14:48:41,167 [parse_and_eval, line 62] INFO: Evaluating: Materials
+2024-11-03 14:48:41,172 [parse_and_eval, line 98] INFO: Num of valid samples: 8, Expected Num: 8
+2024-11-03 14:48:41,173 [parse_and_eval, line 62] INFO: Evaluating: Structural_Engineering
+2024-11-03 14:48:41,185 [parse_and_eval, line 98] INFO: Num of valid samples: 2, Expected Num: 2
+2024-11-03 14:48:41,186 [parse_and_eval, line 62] INFO: Evaluating: Safety_Management
+2024-11-03 14:48:41,191 [parse_and_eval, line 98] INFO: Num of valid samples: 5, Expected Num: 5
+2024-11-03 14:48:41,203 [parse_and_eval, line 62] INFO: Evaluating: Standard_Nomenclature
+2024-11-03 14:48:41,210 [parse_and_eval, line 98] INFO: Num of valid samples: 4, Expected Num: 4

@@ -93,3 +93,91 @@
 | Overall-Construction Engineering |         10 |   0.8 | 0.422 | 0.178 |
 | Testen                           |         10 |   0.8 | 0.422 | 0.178 |
 | Overall                          |         10 |   0.8 | 0.422 | 0.178 |
+2024-11-03 08:45:16,244 [print_results, line 86] INFO: | Subject (gpt-4o)         |   Data Num |   Acc |   Std |   Var |
+|--------------------------+------------+-------+-------+-------|
+| Overall-Domain Knowledge |          0 |     0 |     0 |     0 |
+| Overall                  |          0 |     0 |     0 |     0 |
+2024-11-03 08:45:35,218 [print_results, line 86] INFO: | Subject (dev)            |   Data Num |   Acc |   Std |   Var |
+|--------------------------+------------+-------+-------+-------|
+| Overall-Domain Knowledge |         68 | 0.779 | 0.411 | 0.172 |
+| Architectural_Planning   |         34 | 0.706 | 0.462 | 0.214 |
+| Building_System          |         34 | 0.853 | 0.359 | 0.129 |
+| Overall                  |         68 | 0.779 | 0.411 | 0.172 |
+2024-11-03 08:49:14,226 [print_results, line 86] INFO: | Subject (dev)            |   Data Num |   Acc |   Std |   Var |
+|--------------------------+------------+-------+-------+-------|
+| Overall-Domain Knowledge |        204 | 0.765 | 0.424 | 0.182 |
+| Interior                 |         34 | 0.824 | 0.387 | 0.15  |
+| Materials                |         34 | 0.706 | 0.462 | 0.214 |
+| Architectural_Planning   |         34 | 0.706 | 0.462 | 0.214 |
+| Construction_Management  |         34 | 0.794 | 0.41  | 0.168 |
+| Structural_Engineering   |         34 | 0.706 | 0.462 | 0.214 |
+| Building_System          |         34 | 0.853 | 0.359 | 0.129 |
+| Overall                  |        204 | 0.765 | 0.424 | 0.182 |
+2024-11-03 08:52:28,398 [print_results, line 86] INFO: | Subject (dev)            |   Data Num |   Acc |   Std |   Var |
+|--------------------------+------------+-------+-------+-------|
+| Overall-Domain Knowledge |        238 | 0.765 | 0.425 | 0.182 |
+| Interior                 |         34 | 0.824 | 0.387 | 0.15  |
+| Materials                |         34 | 0.706 | 0.462 | 0.214 |
+| Safety_Management        |         34 | 0.765 | 0.431 | 0.185 |
+| Architectural_Planning   |         34 | 0.706 | 0.462 | 0.214 |
+| Construction_Management  |         34 | 0.794 | 0.41  | 0.168 |
+| Structural_Engineering   |         34 | 0.706 | 0.462 | 0.214 |
+| Building_System          |         34 | 0.853 | 0.359 | 0.129 |
+| Overall                  |        238 | 0.765 | 0.425 | 0.182 |
+2024-11-03 09:03:17,996 [print_results, line 86] INFO: | Subject (dev)            |   Data Num |   Acc |   Std |   Var |
+|--------------------------+------------+-------+-------+-------|
+| Overall-Domain Knowledge |         34 | 0.765 | 0.203 | 0.097 |
+| Interior                 |          6 | 0.833 | 0.408 | 0.167 |
+| Materials                |          8 | 0.75  | 0.463 | 0.214 |
+| Safety_Management        |          5 | 1     | 0     | 0     |
+| Architectural_Planning   |          3 | 1     | 0     | 0     |
+| Construction_Management  |          5 | 1     | 0     | 0     |
+| Structural_Engineering   |          2 | 0     | 0     | 0     |
+| Building_System          |          5 | 0.4   | 0.548 | 0.3   |
+| Overall                  |         34 | 0.765 | 0.203 | 0.097 |
+2024-11-03 12:59:41,330 [print_results, line 86] INFO: | Subject (dev)                    |   Data Num |   Acc |   Std |   Var |
+|----------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology |         10 | 0.5   | 0.204 | 0.083 |
+| Industry_Jargon                  |          6 | 0.167 | 0.408 | 0.167 |
+| Standard_Nomenclature            |          4 | 1     | 0     | 0     |
+| Overall-Domain Knowledge         |         34 | 0.735 | 0.282 | 0.14  |
+| Interior                         |          6 | 0.667 | 0.516 | 0.267 |
+| Materials                        |          8 | 0.75  | 0.463 | 0.214 |
+| Safety_Management                |          5 | 0.8   | 0.447 | 0.2   |
+| Architectural_Planning           |          3 | 1     | 0     | 0     |
+| Construction_Management          |          5 | 1     | 0     | 0     |
+| Structural_Engineering           |          2 | 0     | 0     | 0     |
+| Building_System                  |          5 | 0.6   | 0.548 | 0.3   |
+| Overall                          |         44 | 0.682 | 0.265 | 0.128 |
+2024-11-03 14:48:45,747 [print_results, line 86] INFO: | Subject (dev)                    |   Data Num |   Acc |   Std |   Var |
+|----------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology |         10 | 0.4   | 0     | 0     |
+| Industry_Jargon                  |          6 | 0     | 0     | 0     |
+| Standard_Nomenclature            |          4 | 1     | 0     | 0     |
+| Overall-Domain Knowledge         |         34 | 0.735 | 0.282 | 0.14  |
+| Interior                         |          6 | 0.667 | 0.516 | 0.267 |
+| Materials                        |          8 | 0.75  | 0.463 | 0.214 |
+| Safety_Management                |          5 | 0.8   | 0.447 | 0.2   |
+| Architectural_Planning           |          3 | 1     | 0     | 0     |
+| Construction_Management          |          5 | 1     | 0     | 0     |
+| Structural_Engineering           |          2 | 0     | 0     | 0     |
+| Building_System                  |          5 | 0.6   | 0.548 | 0.3   |
+| Overall-Domain Reasoning         |          3 | 0.667 | 0.577 | 0.333 |
+| Domain_Reasoning                 |          3 | 0.667 | 0.577 | 0.333 |
+| Overall                          |         47 | 0.66  | 0.255 | 0.131 |
+2024-11-03 17:08:28,810 [print_results, line 86] INFO: | Subject (dev)                    |   Data Num |   Acc |   Std |   Var |
+|----------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology |         10 | 0.4   | 0     | 0     |
+| Industry_Jargon                  |          6 | 0     | 0     | 0     |
+| Standard_Nomenclature            |          4 | 1     | 0     | 0     |
+| Overall-Domain Knowledge         |         34 | 0.735 | 0.282 | 0.14  |
+| Interior                         |          6 | 0.667 | 0.516 | 0.267 |
+| Materials                        |          8 | 0.75  | 0.463 | 0.214 |
+| Safety_Management                |          5 | 0.8   | 0.447 | 0.2   |
+| Architectural_Planning           |          3 | 1     | 0     | 0     |
+| Construction_Management          |          5 | 1     | 0     | 0     |
+| Structural_Engineering           |          2 | 0     | 0     | 0     |
+| Building_System                  |          5 | 0.6   | 0.548 | 0.3   |
+| Overall-Domain Reasoning         |          3 | 0.667 | 0.577 | 0.333 |
+| Domain_Reasoning                 |          3 | 0.667 | 0.577 | 0.333 |
+| Overall                          |         47 | 0.66  | 0.255 | 0.131 |

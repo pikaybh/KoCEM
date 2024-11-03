@@ -1,0 +1,118 @@
+[
+    {
+        "id": "dev_Safety_Management_2195",
+        "question_type": "multiple-choice",
+        "answer": "B",
+        "all_choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "index2ans": {
+            "A": "심박수, 분당 칼로리, 산소 흡입량",
+            "B": "거리, 중량(weight), 각도",
+            "C": "온도, 소음 수준, 조도",
+            "D": "키, 허리둘레"
+        },
+        "explanation": "",
+        "full_completions": "(B) 거리, 중량(weight), 각도",
+        "response": "B"
+    },
+    {
+        "id": "dev_Safety_Management_2517",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "all_choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "index2ans": {
+            "A": "강설량이 분당 1㎝ 이상인 경우",
+            "B": "강우량이 시간당 1㎝ 이상인 경우",
+            "C": "풍속이 초당 10m 이상인 경우",
+            "D": "기온이 28℃ 이상인 경우"
+        },
+        "explanation": "- 풍속이 초당 10m이상인 경우- 강우량이 시간당 1mm이상인 경우- 강설량이 시간당 1cm이상인 경우",
+        "full_completions": "(C) 풍속이 초당 10m 이상인 경우",
+        "response": "C"
+    },
+    {
+        "id": "dev_Safety_Management_5362",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "all_choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "index2ans": {
+            "A": "5",
+            "B": "7",
+            "C": "10",
+            "D": "15"
+        },
+        "explanation": "",
+        "full_completions": "이음매가 있는 권상용 와이어로프의 사용금지 규정에서 알맞은 숫자는 (C) 10입니다.",
+        "response": "C"
+    },
+    {
+        "id": "dev_Safety_Management_4883",
+        "question_type": "multiple-choice",
+        "answer": "D",
+        "all_choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "index2ans": {
+            "A": "콘크리트는 한곳으로 치우쳐 타설하여야 한다.",
+            "B": "콘크리트 타설작업 시 거푸집 붕괴의 위험이 발생할 우려가 있더라도 타설작업을 우선완료하고 나서 상황을 판단한다.",
+            "C": "바닥 위에 흘린 콘크리트는 그대로 양생하도록 한다.",
+            "D": "최상부의 슬래브(Slab)는 이어붓기를 가급적 피하고 일시에 전체를 타설한다."
+        },
+        "explanation": "",
+        "full_completions": "(D) 최상부의 슬래브(Slab)는 이어붓기를 가급적 피하고 일시에 전체를 타설한다.",
+        "response": "D"
+    },
+    {
+        "id": "dev_Safety_Management_3822",
+        "question_type": "multiple-choice",
+        "answer": "B",
+        "all_choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L"
+        ],
+        "index2ans": {
+            "A": "앞면 :",
+            "B": "2bit, 뒷면 :",
+            "C": "4bit",
+            "D": "앞면 :",
+            "E": "0bit, 뒷면 :",
+            "F": "0bit",
+            "G": "앞면 :",
+            "H": "1bit, 뒷면 :",
+            "I": "0bit",
+            "J": "앞면 :",
+            "K": "0bit, 뒷면 :",
+            "L": "0bit"
+        },
+        "explanation": "-log2(0.5)=1-log2(0.25)=2",
+        "full_completions": "동전 던지기에서 사건의 정보량은 셰넌 정보량 공식을 사용하여 계산할 수 있습니다. 정보량 \\( I \\)는 \\( I = -\\log_2(P) \\)로 계산됩니다. 여기서 \\( P \\)는 사건이 발생할 확률입니다.\n\n앞면의 경우:\n\\( P(앞) = 0.5 \\)\n\\( I(앞) = -\\log_2(0.5) = 1 \\) bit\n\n뒷면의 경우:\n\\( P(뒤) = 0.25 \\)\n\\( I(뒤) = -\\log_2(0.25) = 2 \\) bits\n\n따라서 앞면의 정보량은 1비트이고, 뒷면의 정보량은 2비트입니다. 따라서 올바른 선택은:\n\n(G) 앞면 : (H) 1bit, 뒷면 : (B) 2bit",
+        "response": "B"
+    }
+]

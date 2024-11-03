@@ -1,0 +1,42 @@
+[
+    {
+        "id": "dev_Structural_Engineering_589",
+        "question_type": "multiple-choice",
+        "answer": "B",
+        "all_choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "index2ans": {
+            "A": "350mm",
+            "B": "400mm",
+            "C": "480mm",
+            "D": "500mm"
+        },
+        "explanation": "셋중의 작은 값1. 25*16= 400mm2. 10*48= 480mm3. 기둥 단면의 단변 치수이하 = 500mm답: 2번",
+        "full_completions": "해당 기둥에서 띠철근(Hoop)의 최대 간격은 (C) 480mm 입니다.",
+        "response": "C"
+    },
+    {
+        "id": "dev_Structural_Engineering_590",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "all_choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "index2ans": {
+            "A": "8kN",
+            "B": "4kN",
+            "C": "5kN",
+            "D": "1kN"
+        },
+        "explanation": "",
+        "full_completions": "죄송합니다. 그림의 내용을 분석할 수 없어 해당 트러스의 A지점 반력의 크기를 정확하게 계산할 수 없습니다. 질문에 대한 답변을 얻으려면 트러스의 구조적 해석을 통해 계산해야 할 수 있습니다.",
+        "response": "A"
+    }
+]

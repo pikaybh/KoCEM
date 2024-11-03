@@ -1,0 +1,62 @@
+[
+    {
+        "id": "dev_Standard_Nomenclature_1",
+        "question_type": "multiple-choice",
+        "answer": "B",
+        "response": "B",
+        "parsed_pred": "B",
+        "index2ans": {
+            "A": "서브실링",
+            "B": "부석포장 (敷石―)",
+            "C": "생물막 (生物膜)",
+            "D": "산화스모그 (酸化―)",
+            "E": "단저당"
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Standard_Nomenclature_2",
+        "question_type": "multiple-choice",
+        "answer": "D",
+        "response": "D",
+        "parsed_pred": "D",
+        "index2ans": {
+            "A": "일반 또는 축소단면세굴",
+            "B": "수평 실",
+            "C": "격자천장,우물반자 : 格天障, 藻井coffered ceiling",
+            "D": "조적공(공사)",
+            "E": "파형강판 구조물"
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Standard_Nomenclature_3",
+        "question_type": "multiple-choice",
+        "answer": "B",
+        "response": "B",
+        "parsed_pred": "B",
+        "index2ans": {
+            "A": "플루팅",
+            "B": "도련자",
+            "C": "배선실",
+            "D": "크립트",
+            "E": "조합하중"
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Standard_Nomenclature_4",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "response": "C",
+        "parsed_pred": "C",
+        "index2ans": {
+            "A": "태평화",
+            "B": "메뚜기장부",
+            "C": "스테이빌로미터",
+            "D": "얼룩무늬",
+            "E": "자유 지하수"
+        },
+        "judge": "Correct"
+    }
+]

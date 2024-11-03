@@ -1,0 +1,92 @@
+[
+    {
+        "id": "dev_Industry_Jargon_1",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "response": "D",
+        "parsed_pred": "D",
+        "index2ans": {
+            "A": "틀",
+            "B": "멍에",
+            "C": "나사송곳",
+            "D": "토관",
+            "E": "창틀"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Industry_Jargon_2",
+        "question_type": "multiple-choice",
+        "answer": "D",
+        "response": "E",
+        "parsed_pred": "E",
+        "index2ans": {
+            "A": "줄치기, 줄쳐보기",
+            "B": "(건설현장근로자)",
+            "C": "나눠내기, 각자부담, 추렴",
+            "D": "비계공",
+            "E": "미장이"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Industry_Jargon_3",
+        "question_type": "multiple-choice",
+        "answer": "B",
+        "response": "D",
+        "parsed_pred": "D",
+        "index2ans": {
+            "A": "본뜨기",
+            "B": "납땜",
+            "C": "잔다듬(기)",
+            "D": "체가름",
+            "E": "본판"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Industry_Jargon_4",
+        "question_type": "multiple-choice",
+        "answer": "E",
+        "response": "A",
+        "parsed_pred": "A",
+        "index2ans": {
+            "A": "품삯(노임), 계산, 셈",
+            "B": "적중",
+            "C": "마구리, 잔머리",
+            "D": "다짐바닥, 토방",
+            "E": "두겁대"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Industry_Jargon_5",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "response": "D",
+        "parsed_pred": "D",
+        "index2ans": {
+            "A": "현장",
+            "B": "돌쌓기",
+            "C": "오 푼 널",
+            "D": "맞댐면, 접합면",
+            "E": "찰 쌓 기(토)사춤쌓기(건)"
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Industry_Jargon_6",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "response": "B",
+        "parsed_pred": "B",
+        "index2ans": {
+            "A": "창호 철물",
+            "B": "잔다듬(기)",
+            "C": "창선반",
+            "D": "검정",
+            "E": "거친면, 채석면"
+        },
+        "judge": "Wrong"
+    }
+]

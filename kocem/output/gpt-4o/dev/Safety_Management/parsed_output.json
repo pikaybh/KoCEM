@@ -1,0 +1,80 @@
+[
+    {
+        "id": "dev_Safety_Management_2195",
+        "question_type": "multiple-choice",
+        "answer": "B",
+        "response": "B",
+        "parsed_pred": "B",
+        "index2ans": {
+            "A": "심박수, 분당 칼로리, 산소 흡입량",
+            "B": "거리, 중량(weight), 각도",
+            "C": "온도, 소음 수준, 조도",
+            "D": "키, 허리둘레"
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Safety_Management_2517",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "response": "C",
+        "parsed_pred": "C",
+        "index2ans": {
+            "A": "강설량이 분당 1㎝ 이상인 경우",
+            "B": "강우량이 시간당 1㎝ 이상인 경우",
+            "C": "풍속이 초당 10m 이상인 경우",
+            "D": "기온이 28℃ 이상인 경우"
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Safety_Management_5362",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "response": "C",
+        "parsed_pred": "C",
+        "index2ans": {
+            "A": "5",
+            "B": "7",
+            "C": "10",
+            "D": "15"
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Safety_Management_4883",
+        "question_type": "multiple-choice",
+        "answer": "D",
+        "response": "D",
+        "parsed_pred": "D",
+        "index2ans": {
+            "A": "콘크리트는 한곳으로 치우쳐 타설하여야 한다.",
+            "B": "콘크리트 타설작업 시 거푸집 붕괴의 위험이 발생할 우려가 있더라도 타설작업을 우선완료하고 나서 상황을 판단한다.",
+            "C": "바닥 위에 흘린 콘크리트는 그대로 양생하도록 한다.",
+            "D": "최상부의 슬래브(Slab)는 이어붓기를 가급적 피하고 일시에 전체를 타설한다."
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Safety_Management_3822",
+        "question_type": "multiple-choice",
+        "answer": "B",
+        "response": "H",
+        "parsed_pred": "H",
+        "index2ans": {
+            "A": "앞면 :",
+            "B": "2bit, 뒷면 :",
+            "C": "4bit",
+            "D": "앞면 :",
+            "E": "0bit, 뒷면 :",
+            "F": "0bit",
+            "G": "앞면 :",
+            "H": "1bit, 뒷면 :",
+            "I": "0bit",
+            "J": "앞면 :",
+            "K": "0bit, 뒷면 :",
+            "L": "0bit"
+        },
+        "judge": "Wrong"
+    }
+]

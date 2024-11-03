@@ -2,18 +2,19 @@ import os
 import random
 from typing import Dict, List, Optional, Union, T
 
+import io
 import fire
 import torch
 import numpy as np
+from PIL import Image
 from tqdm import tqdm
 from datasets import load_dataset, concatenate_datasets
 
-# from llava.model.builder import load_pretrained_model
-# from llava.mm_utils import get_model_name_from_path
+from models.llama import LlamaImageCaptioner
 from models.openai import OpenAIChatCompletions
 
 from utils.os import check_model_output_path
-from utils.model import openai_image_processor, call_engine_df
+from utils.model import call_engine_df
 from utils.eval import parse_multi_choice_response, parse_open_response
 from utils.data import load_yaml, construct_prompt, save_json, process_single_sample, CAT_SHORT2LONG
 
@@ -49,6 +50,9 @@ def run_model(args, samples, model):
 
 def completion(sample: SampleType, model) -> SampleType:
     outkey_list = ["id", "question_type", "answer", "all_choices", "index2ans", "explanation"]
+    if "difficulty" in sample:
+        outkey_list.append("difficulty")
+
     out_dict: SampleType = {key: sample[key] for key in outkey_list if key in sample}
     response =  call_engine_df(sample, model)  # call_model_engine_fn(args, sample, model, tokenizer, processor)
     
@@ -61,10 +65,10 @@ def completion(sample: SampleType, model) -> SampleType:
     out_dict["response"] = pred_ans
     
     return out_dict
-    
+
 
 def run(samples, model) -> List[SampleType]:  # @pikaybh
-    return [completion(sample, model) for sample in tqdm(samples)]
+    return [completion(sample, model) for sample in tqdm(samples, postfix="LLM running")]
 
 
 def main(llm: Optional[str] = "openai", 
@@ -80,8 +84,8 @@ def main(llm: Optional[str] = "openai",
 
     for cat_short in subjects:
         subject = CAT_SHORT2LONG[cat_short]
-        output_path = check_model_output_path(output_path, model, split, subject)
-
+        result_output_path = check_model_output_path(output_path, model, split, subject)
+        
         # load config and process to one value
         config = load_yaml(f"configs/{llm}.yaml")
         for key, value in config.items():
@@ -89,28 +93,31 @@ def main(llm: Optional[str] = "openai",
                 assert len(value) == 1, 'key {} has more than one value'.format(key)
                 config[key] = value[0]
 
-        # run for each subject
-        sub_dataset_list = []
-        for subject in CAT_SHORT2LONG.values():
-            sub_dataset = load_dataset(data_path, subject, split=split)
-            sub_dataset_list.append(sub_dataset)
-
         # merge all dataset
-        dataset = concatenate_datasets(sub_dataset_list)
+        dataset = load_dataset(data_path, subject, split=split)  # concatenate_datasets(sub_dataset_list)
 
         # load model
-        model = OpenAIChatCompletions(model=model)
+        model_obj = OpenAIChatCompletions(model=model)
 
         samples = []
         for sample in dataset:
             sample = process_single_sample(sample)
             sample = construct_prompt(sample, config)
-            sample['image'] = model.image_processor(sample['image']) if sample['image'] else None
+            # sample['image'] = model_obj.image_processor(sample['image']) if sample['image'] else None
+            if sample['image']:
+                # 딕셔너리 형식의 'image' 데이터를 PIL 이미지로 변환
+                image_data = sample['image']
+                if isinstance(image_data, dict) and "bytes" in image_data:
+                    sample['image'] = Image.open(io.BytesIO(image_data["bytes"]))
+                
+            # 이후에 model_obj.image_processor(sample['image']) 호출
+            sample['image'] = model_obj.image_processor(sample['image']) if sample['image'] else None
+            
             samples.append(sample)
 
         # run ex
-        out_samples = run(samples, model)  # run_model(samples, model)  # , call_model_engine, tokenizer, processor)
-        save_json(output_path, out_samples)
+        out_samples = run(samples, model_obj)  # run_model(samples, model)  # , call_model_engine, tokenizer, processor)
+        save_json(result_output_path, out_samples)
 
 
 if __name__ == '__main__':

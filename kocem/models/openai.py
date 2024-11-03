@@ -1,5 +1,7 @@
 import os
+import base64
 import logging
+from io import BytesIO
 from typing import Any, Dict, List, Union
 
 from openai import OpenAI
@@ -25,6 +27,9 @@ stream_handler.setLevel(logging.INFO)
 stream_handler.setFormatter(logging.Formatter(r'%(message)s'))
 logger.addHandler(stream_handler)
 
+
+# Convert image_data to bytes
+buffered = BytesIO()
 
 load_dotenv()
 
@@ -92,8 +97,11 @@ class OpenAIChatCompletions(Template):
         이미지를 base64로 인코딩하여 data URL 형태로 반환합니다.
         """
         # 이미지 데이터를 base64로 인코딩
-        base64_image = base64.b64encode(image_data['bytes']).decode('utf-8')
-        
+        # print(f"{image_data = }")
+        # base64_image = base64.b64encode(image_data['bytes']).decode('utf-8')
+        image_data.save(buffered, format="PNG")
+        base64_image = base64.b64encode(buffered.getvalue()).decode('utf-8')
+
         # data URL 형식으로 반환
         return {"url": f"data:image/jpeg;base64,{base64_image}"}
 

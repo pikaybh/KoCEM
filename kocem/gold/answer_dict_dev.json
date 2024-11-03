@@ -1,0 +1,190 @@
+{
+    "dev_Architectural_Planning_1222": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "dev_Architectural_Planning_1067": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "dev_Architectural_Planning_303": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "dev_Building_System_3179": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "dev_Building_System_734": {
+        "question_type": "multiple-choice",
+        "ground_truth": "A"
+    },
+    "dev_Building_System_2267": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "dev_Building_System_3286": {
+        "question_type": "multiple-choice",
+        "ground_truth": "D"
+    },
+    "dev_Building_System_3460": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "dev_Construction_Management_328": {
+        "question_type": "multiple-choice",
+        "ground_truth": "A"
+    },
+    "dev_Construction_Management_291": {
+        "question_type": "multiple-choice",
+        "ground_truth": "A"
+    },
+    "dev_Construction_Management_682": {
+        "question_type": "multiple-choice",
+        "ground_truth": "D"
+    },
+    "dev_Construction_Management_324": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "dev_Construction_Management_431": {
+        "question_type": "multiple-choice",
+        "ground_truth": "A"
+    },
+    "dev_Domain_Reasoning_1": {
+        "question_type": "multiple-choice",
+        "ground_truth": "A"
+    },
+    "dev_Domain_Reasoning_2": {
+        "question_type": "multiple-choice",
+        "ground_truth": "D"
+    },
+    "dev_Domain_Reasoning_3": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "dev_Industry_Jargon_1": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "dev_Industry_Jargon_2": {
+        "question_type": "multiple-choice",
+        "ground_truth": "D"
+    },
+    "dev_Industry_Jargon_3": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "dev_Industry_Jargon_4": {
+        "question_type": "multiple-choice",
+        "ground_truth": "E"
+    },
+    "dev_Industry_Jargon_5": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "dev_Industry_Jargon_6": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "dev_Interior_816": {
+        "question_type": "multiple-choice",
+        "ground_truth": "A"
+    },
+    "dev_Interior_948": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "dev_Interior_799": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "dev_Interior_789": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "dev_Interior_477": {
+        "question_type": "multiple-choice",
+        "ground_truth": "A"
+    },
+    "dev_Interior_852": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "dev_Materials_1937": {
+        "question_type": "multiple-choice",
+        "ground_truth": "D"
+    },
+    "dev_Materials_1978": {
+        "question_type": "multiple-choice",
+        "ground_truth": "A"
+    },
+    "dev_Materials_107": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "dev_Materials_3874": {
+        "question_type": "multiple-choice",
+        "ground_truth": "A"
+    },
+    "dev_Materials_4941": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "dev_Materials_2240": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "dev_Materials_4127": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "dev_Materials_3950": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "dev_Structural_Engineering_589": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "dev_Structural_Engineering_590": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "dev_Safety_Management_2195": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "dev_Safety_Management_2517": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "dev_Safety_Management_5362": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "dev_Safety_Management_4883": {
+        "question_type": "multiple-choice",
+        "ground_truth": "D"
+    },
+    "dev_Safety_Management_3822": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "dev_Standard_Nomenclature_1": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "dev_Standard_Nomenclature_2": {
+        "question_type": "multiple-choice",
+        "ground_truth": "D"
+    },
+    "dev_Standard_Nomenclature_3": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "dev_Standard_Nomenclature_4": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    }
+}

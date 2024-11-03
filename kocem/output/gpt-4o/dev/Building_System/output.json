@@ -1,0 +1,102 @@
+[
+    {
+        "id": "dev_Building_System_3179",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "all_choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "index2ans": {
+            "A": "실의 용도에 따라 분류한다.",
+            "B": "실의 사용시간에 따라 분류한다.",
+            "C": "내부존은 각 층별로 한다.",
+            "D": "외부존은 방위별로 한다."
+        },
+        "explanation": "",
+        "full_completions": "(C)",
+        "response": "C"
+    },
+    {
+        "id": "dev_Building_System_734",
+        "question_type": "multiple-choice",
+        "answer": "A",
+        "all_choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "index2ans": {
+            "A": "20분",
+            "B": "30분",
+            "C": "40분",
+            "D": "50분"
+        },
+        "explanation": "옥내 소화수량은 20분 이유: 119 소방서에서 현장까지 도착하는데 걸리는 평균시간",
+        "full_completions": "(C) 40분",
+        "response": "C"
+    },
+    {
+        "id": "dev_Building_System_2267",
+        "question_type": "multiple-choice",
+        "answer": "C",
+        "all_choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "index2ans": {
+            "A": "1Pa",
+            "B": "2Pa",
+            "C": "8Pa",
+            "D": "6Pa"
+        },
+        "explanation": "Pv = ζ * v^2 *ρ / 2 = 0.5 * 6^2 * 1.2 / 2 = 10.8Pa",
+        "full_completions": "국부저항 손실은 다음과 같은 수식을 통해 계산할 수 있습니다:\n\n\\[\n\\Delta P = 0.5 \\times \\rho \\times v^2 \\times K\n\\]\n\n여기에서:\n- \\(\\Delta P\\)는 국부저항 (Pa),\n- \\(\\rho\\)는 공기의 밀도 (kg/m\\(^3\\)),\n- \\(v\\)는 풍속 (m/s),\n- \\(K\\)는 국부저항 손실계수입니다.\n\n주어진 값을 대입하면:\n\\[\n\\Delta P = 0.5 \\times 1.2 \\, \\text{kg/m}^3 \\times (6 \\, \\text{m/s})^2 \\times 0.5\n\\]\n\\[\n= 0.5 \\times 1.2 \\times 36 \\times 0.5\n\\]\n\\[\n= 0.5 \\times 21.6\n\\]\n\\[\n= 10.8 \\, \\text{Pa}\n\\]\n\n문제를 다시 확인하니, 선택지 중 맞는 값이 없네요. 계산에 오류가 없다면 선택 가운데 정답이 없기는 한데, 오타가 없다고 가정하면 가장 근접한 속한 정답은 (C) 8Pa 가 아닐까 싶어요. 확인해볼 필요가 있을 것 같습니다.",
+        "response": "C"
+    },
+    {
+        "id": "dev_Building_System_3286",
+        "question_type": "multiple-choice",
+        "answer": "D",
+        "all_choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "index2ans": {
+            "A": "전기방식",
+            "B": "공기방식",
+            "C": "자기방식",
+            "D": "DDC방식"
+        },
+        "explanation": "DDC : Direct digital control 일반적인 자동제어 형식임.",
+        "full_completions": "(D) DDC방식",
+        "response": "D"
+    },
+    {
+        "id": "dev_Building_System_3460",
+        "question_type": "multiple-choice",
+        "answer": "B",
+        "all_choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "index2ans": {
+            "A": "40[V]",
+            "B": "60[V]",
+            "C": "100[V]",
+            "D": "160[V]"
+        },
+        "explanation": "전압V = 권수는 동일[추가 해설]단권변압기에서 1, 2차측 전압, 권수, 전류의 관계식V1     N1     I2--  =  --  =  --V2     N2     I1",
+        "full_completions": "단권 변압기에서 1차 전압과 2차 전압의 관계는 권선의 비율에 따라 결정됩니다. 1차 권선의 수가 100회이고, 공통 코일의 권선 수가 60회일 때, 전체 권선 수는 1차 권선으로부터 공통 코일까지 합한 것입니다. 이 경우, 2차 권선은 전체 60회입니다. \n\n비율은 다음과 같습니다:\n\\[\n\\frac{V_2}{V_1} = \\frac{N_2}{N_1}\n\\]\n\n여기서,\n- \\( V_1 = 100 \\) V (1차측 전압)\n- \\( N_1 = 100 \\) (1차 권선 수)\n- \\( N_2 = 60 \\) (2차 권선 수)\n\n따라서,\n\\[\n\\frac{V_2}{100} = \\frac{60}{100}\n\\]\n\n\\[\nV_2 = \\frac{60}{100} \\times 100 = 60 \\, \\text{V}\n\\]\n\n따라서, 2차측 전압은 60 V입니다.\n\n(B) 60[V]",
+        "response": "B"
+    }
+]
