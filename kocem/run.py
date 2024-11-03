@@ -97,7 +97,12 @@ def main(llm: Optional[str] = "openai",
         dataset = load_dataset(data_path, subject, split=split)  # concatenate_datasets(sub_dataset_list)
 
         # load model
-        model_obj = OpenAIChatCompletions(model=model)
+        if llm == "openai":
+            model_obj = OpenAIChatCompletions(model=model)
+        elif llm == "hf":
+            model_obj = LlamaImageCaptioner(model_id=model)
+        else:
+            raise ValueError(f"Unknown value error ({llm = }).")
 
         samples = []
         for sample in dataset:
