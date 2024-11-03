@@ -51,6 +51,18 @@
         "question_type": "multiple-choice",
         "ground_truth": "A"
     },
+    "dev_Drawing_Interpretation_1": {
+        "question_type": "multiple-choice",
+        "ground_truth": "A"
+    },
+    "dev_Drawing_Interpretation_2": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "dev_Drawing_Interpretation_3": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
     "dev_Domain_Reasoning_1": {
         "question_type": "multiple-choice",
         "ground_truth": "A"
