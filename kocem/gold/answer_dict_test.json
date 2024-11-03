@@ -5339,6 +5339,506 @@
         "question_type": "multiple-choice",
         "ground_truth": "B"
     },
+    "test_Drawing_Interpretation_1": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_2": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_3": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_4": {
+        "question_type": "multiple-choice",
+        "ground_truth": "A"
+    },
+    "test_Drawing_Interpretation_5": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_6": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_7": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_8": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_9": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_10": {
+        "question_type": "multiple-choice",
+        "ground_truth": "E"
+    },
+    "test_Drawing_Interpretation_11": {
+        "question_type": "multiple-choice",
+        "ground_truth": "A"
+    },
+    "test_Drawing_Interpretation_12": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_13": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_14": {
+        "question_type": "multiple-choice",
+        "ground_truth": "E"
+    },
+    "test_Drawing_Interpretation_15": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_16": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_17": {
+        "question_type": "multiple-choice",
+        "ground_truth": "D"
+    },
+    "test_Drawing_Interpretation_18": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_19": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_20": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_21": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_22": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_23": {
+        "question_type": "multiple-choice",
+        "ground_truth": "D"
+    },
+    "test_Drawing_Interpretation_24": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_25": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_26": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_27": {
+        "question_type": "multiple-choice",
+        "ground_truth": "D"
+    },
+    "test_Drawing_Interpretation_28": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_29": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_30": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_31": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_32": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_33": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_34": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_35": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_36": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_37": {
+        "question_type": "multiple-choice",
+        "ground_truth": "D"
+    },
+    "test_Drawing_Interpretation_38": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_39": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_40": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_41": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_42": {
+        "question_type": "multiple-choice",
+        "ground_truth": "A"
+    },
+    "test_Drawing_Interpretation_43": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_44": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_45": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_46": {
+        "question_type": "multiple-choice",
+        "ground_truth": "D"
+    },
+    "test_Drawing_Interpretation_47": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_48": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_49": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_50": {
+        "question_type": "multiple-choice",
+        "ground_truth": "A"
+    },
+    "test_Drawing_Interpretation_51": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_52": {
+        "question_type": "multiple-choice",
+        "ground_truth": "D"
+    },
+    "test_Drawing_Interpretation_53": {
+        "question_type": "multiple-choice",
+        "ground_truth": "D"
+    },
+    "test_Drawing_Interpretation_54": {
+        "question_type": "multiple-choice",
+        "ground_truth": "E"
+    },
+    "test_Drawing_Interpretation_55": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_56": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_57": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_58": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_59": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_60": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_61": {
+        "question_type": "multiple-choice",
+        "ground_truth": "E"
+    },
+    "test_Drawing_Interpretation_62": {
+        "question_type": "multiple-choice",
+        "ground_truth": "E"
+    },
+    "test_Drawing_Interpretation_63": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_64": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_65": {
+        "question_type": "multiple-choice",
+        "ground_truth": "D"
+    },
+    "test_Drawing_Interpretation_66": {
+        "question_type": "multiple-choice",
+        "ground_truth": "A"
+    },
+    "test_Drawing_Interpretation_67": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_68": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_69": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_70": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_71": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_72": {
+        "question_type": "multiple-choice",
+        "ground_truth": "D"
+    },
+    "test_Drawing_Interpretation_73": {
+        "question_type": "multiple-choice",
+        "ground_truth": "D"
+    },
+    "test_Drawing_Interpretation_74": {
+        "question_type": "multiple-choice",
+        "ground_truth": "A"
+    },
+    "test_Drawing_Interpretation_75": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_76": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_77": {
+        "question_type": "multiple-choice",
+        "ground_truth": "D"
+    },
+    "test_Drawing_Interpretation_78": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_79": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_80": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_81": {
+        "question_type": "multiple-choice",
+        "ground_truth": "A"
+    },
+    "test_Drawing_Interpretation_82": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_83": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_84": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_85": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_86": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_87": {
+        "question_type": "multiple-choice",
+        "ground_truth": "E"
+    },
+    "test_Drawing_Interpretation_88": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_89": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_90": {
+        "question_type": "multiple-choice",
+        "ground_truth": "E"
+    },
+    "test_Drawing_Interpretation_91": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_92": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_93": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_94": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_95": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_96": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_97": {
+        "question_type": "multiple-choice",
+        "ground_truth": "D"
+    },
+    "test_Drawing_Interpretation_98": {
+        "question_type": "multiple-choice",
+        "ground_truth": "E"
+    },
+    "test_Drawing_Interpretation_99": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_100": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_101": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_102": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_103": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_104": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_105": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_106": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_107": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_108": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_109": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_110": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_111": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_112": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_113": {
+        "question_type": "multiple-choice",
+        "ground_truth": "A"
+    },
+    "test_Drawing_Interpretation_114": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_115": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_116": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_117": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_118": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_119": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_120": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_121": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_122": {
+        "question_type": "multiple-choice",
+        "ground_truth": "C"
+    },
+    "test_Drawing_Interpretation_123": {
+        "question_type": "multiple-choice",
+        "ground_truth": "B"
+    },
+    "test_Drawing_Interpretation_124": {
+        "question_type": "multiple-choice",
+        "ground_truth": "D"
+    },
+    "test_Drawing_Interpretation_125": {
+        "question_type": "multiple-choice",
+        "ground_truth": "D"
+    },
     "test_Domain_Reasoning_1": {
         "question_type": "multiple-choice",
         "ground_truth": "B"
