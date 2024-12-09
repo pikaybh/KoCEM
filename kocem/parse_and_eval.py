@@ -27,7 +27,9 @@ stream_handler.setFormatter(logging.Formatter(r'%(message)s'))
 logger.addHandler(stream_handler)
 
 
-def main(path: Optional[str] = "output/llava1.5_13b", subject: Optional[List[str]] = None, split: Optional[str] = 'dev') -> None:
+def main(path: Optional[str] = "output/llava1.5_13b", 
+         subject: Optional[List[str]] = None, 
+         split: Optional[str] = 'dev') -> None:
     """Evaluates model output for specified categories and saves parsed results.
 
     Args:
@@ -53,7 +55,10 @@ def main(path: Optional[str] = "output/llava1.5_13b", subject: Optional[List[str
 
     if subject is None or subject[0] == 'ALL':
         subject = list(CAT_SHORT2LONG.keys())
-    
+
+    if "genuine" in path.split('/')[0]:
+        subject.remove("di")
+
     ex_output_path = os.path.join(path, split)
 
     all_results = {}

@@ -181,3 +181,1149 @@
 | Overall-Domain Reasoning         |          3 | 0.667 | 0.577 | 0.333 |
 | Domain_Reasoning                 |          3 | 0.667 | 0.577 | 0.333 |
 | Overall                          |         47 | 0.66  | 0.255 | 0.131 |
+2024-11-03 21:56:25,281 [print_results, line 86] INFO: | Subject (dev)                    |   Data Num |   Acc |   Std |   Var |
+|----------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology |         10 | 0.3   | 0.274 | 0.15  |
+| Industry_Jargon                  |          6 | 0.5   | 0.548 | 0.3   |
+| Standard_Nomenclature            |          4 | 0     | 0     | 0     |
+| Overall-Domain Knowledge         |         34 | 0.176 | 0.212 | 0.105 |
+| Interior                         |          6 | 0.333 | 0.516 | 0.267 |
+| Materials                        |          8 | 0.375 | 0.518 | 0.268 |
+| Safety_Management                |          5 | 0     | 0     | 0     |
+| Architectural_Planning           |          3 | 0     | 0     | 0     |
+| Construction_Management          |          5 | 0.2   | 0.447 | 0.2   |
+| Structural_Engineering           |          2 | 0     | 0     | 0     |
+| Building_System                  |          5 | 0     | 0     | 0     |
+| Overall-Domain Reasoning         |          3 | 0.333 | 0.577 | 0.333 |
+| Domain_Reasoning                 |          3 | 0.333 | 0.577 | 0.333 |
+| Overall-Drawing Interpretation   |          3 | 0     | 0     | 0     |
+| Drawing_Interpretation           |          3 | 0     | 0     | 0     |
+| Overall                          |         50 | 0.2   | 0.237 | 0.124 |
+2024-11-03 21:56:35,086 [print_results, line 86] INFO: | Subject (test)                   |   Data Num |   Acc |   Std |   Var |
+|----------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology |       1020 | 0.197 | 0.398 | 0.158 |
+| Industry_Jargon                  |        576 | 0.201 | 0.401 | 0.161 |
+| Standard_Nomenclature            |        444 | 0.191 | 0.394 | 0.155 |
+| Overall-Domain Knowledge         |       2841 | 0.257 | 0.437 | 0.191 |
+| Interior                         |        359 | 0.287 | 0.453 | 0.205 |
+| Materials                        |        408 | 0.26  | 0.439 | 0.193 |
+| Safety_Management                |        381 | 0.244 | 0.43  | 0.185 |
+| Architectural_Planning           |        464 | 0.267 | 0.443 | 0.196 |
+| Construction_Management          |        494 | 0.251 | 0.434 | 0.188 |
+| Structural_Engineering           |        358 | 0.246 | 0.431 | 0.186 |
+| Building_System                  |        377 | 0.241 | 0.428 | 0.184 |
+| Overall-Domain Reasoning         |        258 | 0.186 | 0.39  | 0.152 |
+| Domain_Reasoning                 |        258 | 0.186 | 0.39  | 0.152 |
+| Overall-Drawing Interpretation   |        125 | 0.184 | 0.389 | 0.151 |
+| Drawing_Interpretation           |        125 | 0.184 | 0.389 | 0.151 |
+| Overall                          |       4244 | 0.236 | 0.421 | 0.178 |
+2024-11-03 21:56:40,865 [print_results, line 86] INFO: | Subject (val)                    |   Data Num |   Acc |   Std |   Var |
+|----------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology |        101 | 0.149 | 0.36  | 0.13  |
+| Industry_Jargon                  |         57 | 0.14  | 0.35  | 0.123 |
+| Standard_Nomenclature            |         44 | 0.159 | 0.37  | 0.137 |
+| Overall-Domain Knowledge         |        292 | 0.219 | 0.406 | 0.168 |
+| Interior                         |         46 | 0.304 | 0.465 | 0.216 |
+| Materials                        |         43 | 0.233 | 0.427 | 0.183 |
+| Safety_Management                |         41 | 0.171 | 0.381 | 0.145 |
+| Architectural_Planning           |         41 | 0.268 | 0.449 | 0.201 |
+| Construction_Management          |         34 | 0.088 | 0.288 | 0.083 |
+| Structural_Engineering           |         38 | 0.289 | 0.46  | 0.211 |
+| Building_System                  |         49 | 0.163 | 0.373 | 0.139 |
+| Overall-Domain Reasoning         |         10 | 0     | 0     | 0     |
+| Domain_Reasoning                 |         10 | 0     | 0     | 0     |
+| Overall-Drawing Interpretation   |         10 | 0.2   | 0.422 | 0.178 |
+| Drawing_Interpretation           |         10 | 0.2   | 0.422 | 0.178 |
+| Overall                          |        413 | 0.196 | 0.362 | 0.147 |
+2024-11-03 23:40:55,307 [print_results, line 86] INFO: | Subject (.\output\claude-3-5-sonnet-20241022\dev\)   |   Data Num |   Acc |   Std |   Var |
+|------------------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology                     |         10 | 0.4   | 0.454 | 0.208 |
+| Industry_Jargon                                      |          6 | 0.167 | 0.408 | 0.167 |
+| Standard_Nomenclature                                |          4 | 0.75  | 0.5   | 0.25  |
+| Overall-Domain Knowledge                             |         34 | 0.706 | 0.427 | 0.216 |
+| Interior                                             |          6 | 0.833 | 0.408 | 0.167 |
+| Materials                                            |          8 | 0.75  | 0.463 | 0.214 |
+| Safety_Management                                    |          5 | 0.4   | 0.548 | 0.3   |
+| Architectural_Planning                               |          3 | 0.667 | 0.577 | 0.333 |
+| Construction_Management                              |          5 | 0.8   | 0.447 | 0.2   |
+| Structural_Engineering                               |          2 | 1     | 0     | 0     |
+| Building_System                                      |          5 | 0.6   | 0.548 | 0.3   |
+| Overall-Domain Reasoning                             |          3 | 0.667 | 0.577 | 0.333 |
+| Domain_Reasoning                                     |          3 | 0.667 | 0.577 | 0.333 |
+| Overall-Drawing Interpretation                       |          3 | 0.667 | 0.577 | 0.333 |
+| Drawing_Interpretation                               |          3 | 0.667 | 0.577 | 0.333 |
+| Overall                                              |         50 | 0.64  | 0.459 | 0.236 |
+2024-11-03 23:42:08,864 [print_results, line 86] INFO: | Subject (.\output\gpt-4o\dev)    |   Data Num |   Acc |   Std |   Var |
+|----------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology |         10 | 0.4   | 0     | 0     |
+| Industry_Jargon                  |          6 | 0     | 0     | 0     |
+| Standard_Nomenclature            |          4 | 1     | 0     | 0     |
+| Overall-Domain Knowledge         |         34 | 0.735 | 0.282 | 0.14  |
+| Interior                         |          6 | 0.667 | 0.516 | 0.267 |
+| Materials                        |          8 | 0.75  | 0.463 | 0.214 |
+| Safety_Management                |          5 | 0.8   | 0.447 | 0.2   |
+| Architectural_Planning           |          3 | 1     | 0     | 0     |
+| Construction_Management          |          5 | 1     | 0     | 0     |
+| Structural_Engineering           |          2 | 0     | 0     | 0     |
+| Building_System                  |          5 | 0.6   | 0.548 | 0.3   |
+| Overall-Domain Reasoning         |          3 | 0.667 | 0.577 | 0.333 |
+| Domain_Reasoning                 |          3 | 0.667 | 0.577 | 0.333 |
+| Overall-Drawing Interpretation   |          0 | 0     | 0     | 0     |
+| Overall                          |         47 | 0.66  | 0.255 | 0.131 |
+2024-11-03 23:44:59,682 [print_results, line 86] INFO: | Subject (.\output\gpt-4o\test\)   |   Data Num |   Acc |   Std |   Var |
+|-----------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology  |          0 | 0     | 0     | 0     |
+| Overall-Domain Knowledge          |       1335 | 0.743 | 0.438 | 0.191 |
+| Architectural_Planning            |        464 | 0.756 | 0.43  | 0.185 |
+| Construction_Management           |        494 | 0.737 | 0.441 | 0.194 |
+| Building_System                   |        377 | 0.735 | 0.442 | 0.195 |
+| Overall-Domain Reasoning          |          0 | 0     | 0     | 0     |
+| Overall-Drawing Interpretation    |        125 | 0.336 | 0.474 | 0.225 |
+| Drawing_Interpretation            |        125 | 0.336 | 0.474 | 0.225 |
+| Overall                           |       1460 | 0.708 | 0.447 | 0.2   |
+2024-11-03 23:45:36,852 [print_results, line 86] INFO: | Subject (.\output\canny\test\)   |   Data Num |   Acc |   Std |   Var |
+|----------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology |       1020 | 0.197 | 0.398 | 0.158 |
+| Industry_Jargon                  |        576 | 0.201 | 0.401 | 0.161 |
+| Standard_Nomenclature            |        444 | 0.191 | 0.394 | 0.155 |
+| Overall-Domain Knowledge         |       2841 | 0.257 | 0.437 | 0.191 |
+| Interior                         |        359 | 0.287 | 0.453 | 0.205 |
+| Materials                        |        408 | 0.26  | 0.439 | 0.193 |
+| Safety_Management                |        381 | 0.244 | 0.43  | 0.185 |
+| Architectural_Planning           |        464 | 0.267 | 0.443 | 0.196 |
+| Construction_Management          |        494 | 0.251 | 0.434 | 0.188 |
+| Structural_Engineering           |        358 | 0.246 | 0.431 | 0.186 |
+| Building_System                  |        377 | 0.241 | 0.428 | 0.184 |
+| Overall-Domain Reasoning         |        258 | 0.186 | 0.39  | 0.152 |
+| Domain_Reasoning                 |        258 | 0.186 | 0.39  | 0.152 |
+| Overall-Drawing Interpretation   |        125 | 0.184 | 0.389 | 0.151 |
+| Drawing_Interpretation           |        125 | 0.184 | 0.389 | 0.151 |
+| Overall                          |       4244 | 0.236 | 0.421 | 0.178 |
+2024-11-04 09:08:24,176 [print_results, line 86] INFO: | Subject (.\output\claude-3-5-sonnet-20241022\val\)   |   Data Num |   Acc |   Std |   Var |
+|------------------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology                     |        101 | 0.703 | 0.328 | 0.139 |
+| Industry_Jargon                                      |         57 | 0.491 | 0.504 | 0.254 |
+| Standard_Nomenclature                                |         44 | 0.977 | 0.151 | 0.023 |
+| Overall-Domain Knowledge                             |        292 | 0.688 | 0.464 | 0.216 |
+| Interior                                             |         46 | 0.63  | 0.488 | 0.238 |
+| Materials                                            |         43 | 0.628 | 0.489 | 0.239 |
+| Safety_Management                                    |         41 | 0.78  | 0.419 | 0.176 |
+| Architectural_Planning                               |         41 | 0.756 | 0.435 | 0.189 |
+| Construction_Management                              |         34 | 0.706 | 0.462 | 0.214 |
+| Structural_Engineering                               |         38 | 0.632 | 0.489 | 0.239 |
+| Building_System                                      |         49 | 0.694 | 0.466 | 0.217 |
+| Overall-Domain Reasoning                             |         10 | 0.7   | 0.483 | 0.233 |
+| Domain_Reasoning                                     |         10 | 0.7   | 0.483 | 0.233 |
+| Overall-Drawing Interpretation                       |         10 | 0.7   | 0.483 | 0.233 |
+| Drawing_Interpretation                               |         10 | 0.7   | 0.483 | 0.233 |
+| Overall                                              |        413 | 0.692 | 0.443 | 0.205 |
+2024-11-04 09:54:20,867 [print_results, line 86] INFO: | Subject (.\output\gpt-4o\val\)   |   Data Num |   Acc |   Std |   Var |
+|----------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology |        101 | 0.683 | 0.25  | 0.125 |
+| Industry_Jargon                  |         57 | 0.439 | 0.501 | 0.251 |
+| Standard_Nomenclature            |         44 | 1     | 0     | 0     |
+| Overall-Domain Knowledge         |        292 | 0.716 | 0.444 | 0.198 |
+| Interior                         |         46 | 0.674 | 0.474 | 0.225 |
+| Materials                        |         43 | 0.791 | 0.412 | 0.169 |
+| Safety_Management                |         41 | 0.756 | 0.435 | 0.189 |
+| Architectural_Planning           |         41 | 0.805 | 0.401 | 0.161 |
+| Construction_Management          |         34 | 0.735 | 0.448 | 0.201 |
+| Structural_Engineering           |         38 | 0.474 | 0.506 | 0.256 |
+| Building_System                  |         49 | 0.755 | 0.434 | 0.189 |
+| Overall-Domain Reasoning         |         10 | 0.4   | 0.516 | 0.267 |
+| Domain_Reasoning                 |         10 | 0.4   | 0.516 | 0.267 |
+| Overall-Drawing Interpretation   |         10 | 0.4   | 0.516 | 0.267 |
+| Drawing_Interpretation           |         10 | 0.4   | 0.516 | 0.267 |
+| Overall                          |        413 | 0.692 | 0.422 | 0.198 |
+2024-11-04 10:51:32,311 [print_results, line 86] INFO: | Subject (.\output\gpt-4o\val\)   |   Data Num |   Acc |   Std |   Var |
+|----------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology |        101 | 0.683 | 0.25  | 0.125 |
+| Industry_Jargon                  |         57 | 0.439 | 0.501 | 0.251 |
+| Standard_Nomenclature            |         44 | 1     | 0     | 0     |
+| Overall-Domain Knowledge         |        292 | 0.716 | 0.444 | 0.198 |
+| Interior                         |         46 | 0.674 | 0.474 | 0.225 |
+| Materials                        |         43 | 0.791 | 0.412 | 0.169 |
+| Safety_Management                |         41 | 0.756 | 0.435 | 0.189 |
+| Architectural_Planning           |         41 | 0.805 | 0.401 | 0.161 |
+| Construction_Management          |         34 | 0.735 | 0.448 | 0.201 |
+| Structural_Engineering           |         38 | 0.474 | 0.506 | 0.256 |
+| Building_System                  |         49 | 0.755 | 0.434 | 0.189 |
+| Overall-Domain Reasoning         |         10 | 0.4   | 0.516 | 0.267 |
+| Domain_Reasoning                 |         10 | 0.4   | 0.516 | 0.267 |
+| Overall-Drawing Interpretation   |         10 | 0.4   | 0.516 | 0.267 |
+| Drawing_Interpretation           |         10 | 0.4   | 0.516 | 0.267 |
+| Overall                          |        413 | 0.692 | 0.422 | 0.198 |
+2024-11-04 11:57:30,195 [print_results, line 86] INFO: | Subject (.\output\gpt-4o\test\)   |   Data Num |   Acc |   Std |   Var |
+|-----------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology  |        576 | 0.503 | 0.5   | 0.25  |
+| Industry_Jargon                   |        576 | 0.503 | 0.5   | 0.25  |
+| Overall-Domain Knowledge          |       2460 | 0.7   | 0.445 | 0.2   |
+| Interior                          |        359 | 0.627 | 0.484 | 0.235 |
+| Materials                         |        408 | 0.831 | 0.375 | 0.141 |
+| Architectural_Planning            |        464 | 0.756 | 0.43  | 0.185 |
+| Construction_Management           |        494 | 0.737 | 0.441 | 0.194 |
+| Structural_Engineering            |        358 | 0.466 | 0.5   | 0.25  |
+| Building_System                   |        377 | 0.735 | 0.442 | 0.195 |
+| Overall-Domain Reasoning          |        258 | 0.438 | 0.497 | 0.247 |
+| Domain_Reasoning                  |        258 | 0.438 | 0.497 | 0.247 |
+| Overall-Drawing Interpretation    |        125 | 0.336 | 0.474 | 0.225 |
+| Drawing_Interpretation            |        125 | 0.336 | 0.474 | 0.225 |
+| Overall                           |       3419 | 0.634 | 0.46  | 0.214 |
+2024-11-04 15:12:42,783 [print_results, line 86] INFO: | Subject (.\output\claude-3-5-sonnet-20241022\test\)   |   Data Num |   Acc |   Std |   Var |
+|-------------------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology                      |          0 | 0     | 0     | 0     |
+| Overall-Domain Knowledge                              |       1335 | 0.661 | 0.471 | 0.222 |
+| Architectural_Planning                                |        464 | 0.677 | 0.468 | 0.219 |
+| Construction_Management                               |        494 | 0.613 | 0.487 | 0.238 |
+| Building_System                                       |        377 | 0.703 | 0.458 | 0.209 |
+| Overall-Domain Reasoning                              |          0 | 0     | 0     | 0     |
+| Overall-Drawing Interpretation                        |        125 | 0.456 | 0.5   | 0.25  |
+| Drawing_Interpretation                                |        125 | 0.456 | 0.5   | 0.25  |
+| Overall                                               |       1460 | 0.643 | 0.478 | 0.229 |
+2024-11-04 15:41:15,359 [print_results, line 86] INFO: | Subject (.\output\gemini-1.5-pro-latest\dev\)   |   Data Num |   Acc |   Std |   Var |
+|-------------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology                |         10 | 0.3   | 0.493 | 0.25  |
+| Industry_Jargon                                 |          6 | 0.167 | 0.408 | 0.167 |
+| Standard_Nomenclature                           |          4 | 0.5   | 0.577 | 0.333 |
+| Overall-Domain Knowledge                        |         34 | 0.647 | 0.473 | 0.267 |
+| Interior                                        |          6 | 0.333 | 0.516 | 0.267 |
+| Materials                                       |          8 | 0.625 | 0.518 | 0.268 |
+| Safety_Management                               |          5 | 0.6   | 0.548 | 0.3   |
+| Architectural_Planning                          |          3 | 0.667 | 0.577 | 0.333 |
+| Construction_Management                         |          5 | 1     | 0     | 0     |
+| Structural_Engineering                          |          2 | 0.5   | 0.707 | 0.5   |
+| Building_System                                 |          5 | 0.8   | 0.447 | 0.2   |
+| Overall-Domain Reasoning                        |          3 | 1     | 0     | 0     |
+| Domain_Reasoning                                |          3 | 1     | 0     | 0     |
+| Overall-Drawing Interpretation                  |          3 | 0.333 | 0.577 | 0.333 |
+| Drawing_Interpretation                          |          3 | 0.333 | 0.577 | 0.333 |
+| Overall                                         |         50 | 0.58  | 0.443 | 0.246 |
+2024-11-04 16:21:32,043 [print_results, line 86] INFO: | Subject (.\output\claude-3-5-sonnet-20241022\val)   |   Data Num |   Acc |   Std |   Var |
+|-----------------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology                    |        101 | 0.703 | 0.328 | 0.139 |
+| Industry_Jargon                                     |         57 | 0.491 | 0.504 | 0.254 |
+| Standard_Nomenclature                               |         44 | 0.977 | 0.151 | 0.023 |
+| Overall-Domain Knowledge                            |        292 | 0.688 | 0.464 | 0.216 |
+| Interior                                            |         46 | 0.63  | 0.488 | 0.238 |
+| Materials                                           |         43 | 0.628 | 0.489 | 0.239 |
+| Safety_Management                                   |         41 | 0.78  | 0.419 | 0.176 |
+| Architectural_Planning                              |         41 | 0.756 | 0.435 | 0.189 |
+| Construction_Management                             |         34 | 0.706 | 0.462 | 0.214 |
+| Structural_Engineering                              |         38 | 0.632 | 0.489 | 0.239 |
+| Building_System                                     |         49 | 0.694 | 0.466 | 0.217 |
+| Overall-Domain Reasoning                            |         10 | 0.7   | 0.483 | 0.233 |
+| Domain_Reasoning                                    |         10 | 0.7   | 0.483 | 0.233 |
+| Overall-Drawing Interpretation                      |         10 | 0.7   | 0.483 | 0.233 |
+| Drawing_Interpretation                              |         10 | 0.7   | 0.483 | 0.233 |
+| Overall                                             |        413 | 0.692 | 0.443 | 0.205 |
+2024-11-04 16:22:08,275 [print_results, line 86] INFO: | Subject (.\output\gemini-1.5-pro-latest\val)   |   Data Num |   Acc |   Std |   Var |
+|------------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology               |        101 | 0.604 | 0.494 | 0.244 |
+| Industry_Jargon                                |         57 | 0.632 | 0.487 | 0.237 |
+| Standard_Nomenclature                          |         44 | 0.568 | 0.501 | 0.251 |
+| Overall-Domain Knowledge                       |        292 | 0.682 | 0.457 | 0.21  |
+| Interior                                       |         46 | 0.565 | 0.501 | 0.251 |
+| Materials                                      |         43 | 0.721 | 0.454 | 0.206 |
+| Safety_Management                              |         41 | 0.659 | 0.48  | 0.23  |
+| Architectural_Planning                         |         41 | 0.78  | 0.419 | 0.176 |
+| Construction_Management                        |         34 | 0.735 | 0.448 | 0.201 |
+| Structural_Engineering                         |         38 | 0.474 | 0.506 | 0.256 |
+| Building_System                                |         49 | 0.816 | 0.391 | 0.153 |
+| Overall-Domain Reasoning                       |         10 | 0.4   | 0.516 | 0.267 |
+| Domain_Reasoning                               |         10 | 0.4   | 0.516 | 0.267 |
+| Overall-Drawing Interpretation                 |         10 | 0.5   | 0.527 | 0.278 |
+| Drawing_Interpretation                         |         10 | 0.5   | 0.527 | 0.278 |
+| Overall                                        |        413 | 0.651 | 0.475 | 0.228 |
+2024-11-04 20:57:21,608 [print_results, line 86] INFO: | Subject (.\output\gemini-1.5-pro-latest\test)   |   Data Num |   Acc |   Std |   Var |
+|-------------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology                |       1020 | 0.526 | 0.494 | 0.244 |
+| Industry_Jargon                                 |        576 | 0.594 | 0.492 | 0.242 |
+| Standard_Nomenclature                           |        444 | 0.439 | 0.497 | 0.247 |
+| Overall-Domain Knowledge                        |       2841 | 0.591 | 0.49  | 0.24  |
+| Interior                                        |        359 | 0.529 | 0.5   | 0.25  |
+| Materials                                       |        408 | 0.674 | 0.469 | 0.22  |
+| Safety_Management                               |        381 | 0.591 | 0.492 | 0.242 |
+| Architectural_Planning                          |        464 | 0.569 | 0.496 | 0.246 |
+| Construction_Management                         |        494 | 0.575 | 0.495 | 0.245 |
+| Structural_Engineering                          |        358 | 0.581 | 0.494 | 0.244 |
+| Building_System                                 |        377 | 0.621 | 0.486 | 0.236 |
+| Overall-Domain Reasoning                        |        258 | 0.496 | 0.501 | 0.251 |
+| Domain_Reasoning                                |        258 | 0.496 | 0.501 | 0.251 |
+| Overall-Drawing Interpretation                  |        125 | 0.464 | 0.501 | 0.251 |
+| Drawing_Interpretation                          |        125 | 0.464 | 0.501 | 0.251 |
+| Overall                                         |       4244 | 0.566 | 0.493 | 0.243 |
+2024-11-04 22:05:16,208 [print_results, line 86] INFO: | Subject (.\output\gemini-1.5-pro-latest\dev)   |   Data Num |   Acc |   Std |   Var |
+|------------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology               |         10 | 0.3   | 0.493 | 0.25  |
+| Industry_Jargon                                |          6 | 0.167 | 0.408 | 0.167 |
+| Standard_Nomenclature                          |          4 | 0.5   | 0.577 | 0.333 |
+| Overall-Domain Knowledge                       |         34 | 0.647 | 0.473 | 0.267 |
+| Interior                                       |          6 | 0.333 | 0.516 | 0.267 |
+| Materials                                      |          8 | 0.625 | 0.518 | 0.268 |
+| Safety_Management                              |          5 | 0.6   | 0.548 | 0.3   |
+| Architectural_Planning                         |          3 | 0.667 | 0.577 | 0.333 |
+| Construction_Management                        |          5 | 1     | 0     | 0     |
+| Structural_Engineering                         |          2 | 0.5   | 0.707 | 0.5   |
+| Building_System                                |          5 | 0.8   | 0.447 | 0.2   |
+| Overall-Domain Reasoning                       |          3 | 1     | 0     | 0     |
+| Domain_Reasoning                               |          3 | 1     | 0     | 0     |
+| Overall-Drawing Interpretation                 |          3 | 0.333 | 0.577 | 0.333 |
+| Drawing_Interpretation                         |          3 | 0.333 | 0.577 | 0.333 |
+| Overall                                        |         50 | 0.58  | 0.443 | 0.246 |
+2024-11-04 22:06:04,582 [print_results, line 86] INFO: | Subject (.\output\gpt-4o\dev\)   |   Data Num |   Acc |   Std |   Var |
+|----------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology |         10 | 0.4   | 0     | 0     |
+| Industry_Jargon                  |          6 | 0     | 0     | 0     |
+| Standard_Nomenclature            |          4 | 1     | 0     | 0     |
+| Overall-Domain Knowledge         |         34 | 0.735 | 0.282 | 0.14  |
+| Interior                         |          6 | 0.667 | 0.516 | 0.267 |
+| Materials                        |          8 | 0.75  | 0.463 | 0.214 |
+| Safety_Management                |          5 | 0.8   | 0.447 | 0.2   |
+| Architectural_Planning           |          3 | 1     | 0     | 0     |
+| Construction_Management          |          5 | 1     | 0     | 0     |
+| Structural_Engineering           |          2 | 0     | 0     | 0     |
+| Building_System                  |          5 | 0.6   | 0.548 | 0.3   |
+| Overall-Domain Reasoning         |          3 | 0.667 | 0.577 | 0.333 |
+| Domain_Reasoning                 |          3 | 0.667 | 0.577 | 0.333 |
+| Overall-Drawing Interpretation   |          0 | 0     | 0     | 0     |
+| Overall                          |         47 | 0.66  | 0.255 | 0.131 |
+2024-11-04 22:06:30,730 [print_results, line 86] INFO: | Subject (.\output\claude-3-5-sonnet-20241022\dev\)   |   Data Num |   Acc |   Std |   Var |
+|------------------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology                     |         10 | 0.4   | 0.454 | 0.208 |
+| Industry_Jargon                                      |          6 | 0.167 | 0.408 | 0.167 |
+| Standard_Nomenclature                                |          4 | 0.75  | 0.5   | 0.25  |
+| Overall-Domain Knowledge                             |         34 | 0.706 | 0.427 | 0.216 |
+| Interior                                             |          6 | 0.833 | 0.408 | 0.167 |
+| Materials                                            |          8 | 0.75  | 0.463 | 0.214 |
+| Safety_Management                                    |          5 | 0.4   | 0.548 | 0.3   |
+| Architectural_Planning                               |          3 | 0.667 | 0.577 | 0.333 |
+| Construction_Management                              |          5 | 0.8   | 0.447 | 0.2   |
+| Structural_Engineering                               |          2 | 1     | 0     | 0     |
+| Building_System                                      |          5 | 0.6   | 0.548 | 0.3   |
+| Overall-Domain Reasoning                             |          3 | 0.667 | 0.577 | 0.333 |
+| Domain_Reasoning                                     |          3 | 0.667 | 0.577 | 0.333 |
+| Overall-Drawing Interpretation                       |          3 | 0.667 | 0.577 | 0.333 |
+| Drawing_Interpretation                               |          3 | 0.667 | 0.577 | 0.333 |
+| Overall                                              |         50 | 0.64  | 0.459 | 0.236 |
+2024-11-04 22:32:14,127 [print_results, line 86] INFO: | Subject (.\output\canny\dev\)    |   Data Num |   Acc |   Std |   Var |
+|----------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology |         10 | 0.3   | 0.274 | 0.15  |
+| Industry_Jargon                  |          6 | 0.5   | 0.548 | 0.3   |
+| Standard_Nomenclature            |          4 | 0     | 0     | 0     |
+| Overall-Domain Knowledge         |         34 | 0.176 | 0.212 | 0.105 |
+| Interior                         |          6 | 0.333 | 0.516 | 0.267 |
+| Materials                        |          8 | 0.375 | 0.518 | 0.268 |
+| Safety_Management                |          5 | 0     | 0     | 0     |
+| Architectural_Planning           |          3 | 0     | 0     | 0     |
+| Construction_Management          |          5 | 0.2   | 0.447 | 0.2   |
+| Structural_Engineering           |          2 | 0     | 0     | 0     |
+| Building_System                  |          5 | 0     | 0     | 0     |
+| Overall-Domain Reasoning         |          3 | 0.333 | 0.577 | 0.333 |
+| Domain_Reasoning                 |          3 | 0.333 | 0.577 | 0.333 |
+| Overall-Drawing Interpretation   |          3 | 0     | 0     | 0     |
+| Drawing_Interpretation           |          3 | 0     | 0     | 0     |
+| Overall                          |         50 | 0.2   | 0.237 | 0.124 |
+2024-11-04 23:41:24,604 [print_results, line 86] INFO: | Subject (.\output\gemini-1.5-flash-latest\dev\)   |   Data Num |   Acc |   Std |   Var |
+|---------------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology                  |         10 | 0.5   | 0.508 | 0.258 |
+| Industry_Jargon                                   |          6 | 0.333 | 0.516 | 0.267 |
+| Standard_Nomenclature                             |          4 | 0.75  | 0.5   | 0.25  |
+| Overall-Domain Knowledge                          |         34 | 0.382 | 0.462 | 0.25  |
+| Interior                                          |          6 | 0.5   | 0.548 | 0.3   |
+| Materials                                         |          8 | 0.25  | 0.463 | 0.214 |
+| Safety_Management                                 |          5 | 0.4   | 0.548 | 0.3   |
+| Architectural_Planning                            |          3 | 0.333 | 0.577 | 0.333 |
+| Construction_Management                           |          5 | 0.6   | 0.548 | 0.3   |
+| Structural_Engineering                            |          2 | 0     | 0     | 0     |
+| Building_System                                   |          5 | 0.4   | 0.548 | 0.3   |
+| Overall-Domain Reasoning                          |          3 | 0.667 | 0.577 | 0.333 |
+| Domain_Reasoning                                  |          3 | 0.667 | 0.577 | 0.333 |
+| Overall-Drawing Interpretation                    |          3 | 0.333 | 0.577 | 0.333 |
+| Drawing_Interpretation                            |          3 | 0.333 | 0.577 | 0.333 |
+| Overall                                           |         50 | 0.42  | 0.491 | 0.266 |
+2024-11-04 23:58:08,058 [print_results, line 86] INFO: | Subject (.\output\gemini-1.5-flash-latest\val\)   |   Data Num |   Acc |   Std |   Var |
+|---------------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology                  |        101 | 0.455 | 0.471 | 0.221 |
+| Industry_Jargon                                   |         57 | 0.298 | 0.462 | 0.213 |
+| Standard_Nomenclature                             |         44 | 0.659 | 0.479 | 0.23  |
+| Overall-Domain Knowledge                          |        292 | 0.503 | 0.501 | 0.251 |
+| Interior                                          |         46 | 0.565 | 0.501 | 0.251 |
+| Materials                                         |         43 | 0.465 | 0.505 | 0.255 |
+| Safety_Management                                 |         41 | 0.512 | 0.506 | 0.256 |
+| Architectural_Planning                            |         41 | 0.537 | 0.505 | 0.255 |
+| Construction_Management                           |         34 | 0.618 | 0.493 | 0.243 |
+| Structural_Engineering                            |         38 | 0.395 | 0.495 | 0.245 |
+| Building_System                                   |         49 | 0.449 | 0.503 | 0.253 |
+| Overall-Domain Reasoning                          |         10 | 0.5   | 0.527 | 0.278 |
+| Domain_Reasoning                                  |         10 | 0.5   | 0.527 | 0.278 |
+| Overall-Drawing Interpretation                    |         10 | 0.3   | 0.483 | 0.233 |
+| Drawing_Interpretation                            |         10 | 0.3   | 0.483 | 0.233 |
+| Overall                                           |        413 | 0.487 | 0.496 | 0.247 |
+2024-11-05 00:27:09,161 [print_results, line 86] INFO: | Subject (.\output\gpt-4o-mini\dev\)   |   Data Num |   Acc |   Std |   Var |
+|---------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology      |         10 | 0.4   | 0     | 0     |
+| Industry_Jargon                       |          6 | 0     | 0     | 0     |
+| Standard_Nomenclature                 |          4 | 1     | 0     | 0     |
+| Overall-Domain Knowledge              |         34 | 0.676 | 0.469 | 0.265 |
+| Interior                              |          6 | 0.5   | 0.548 | 0.3   |
+| Materials                             |          8 | 0.875 | 0.354 | 0.125 |
+| Safety_Management                     |          5 | 0.6   | 0.548 | 0.3   |
+| Architectural_Planning                |          3 | 0.333 | 0.577 | 0.333 |
+| Construction_Management               |          5 | 1     | 0     | 0     |
+| Structural_Engineering                |          2 | 0.5   | 0.707 | 0.5   |
+| Building_System                       |          5 | 0.6   | 0.548 | 0.3   |
+| Overall-Domain Reasoning              |          3 | 0.333 | 0.577 | 0.333 |
+| Domain_Reasoning                      |          3 | 0.333 | 0.577 | 0.333 |
+| Overall-Drawing Interpretation        |          3 | 0.667 | 0.577 | 0.333 |
+| Drawing_Interpretation                |          3 | 0.667 | 0.577 | 0.333 |
+| Overall                               |         50 | 0.6   | 0.403 | 0.23  |
+2024-11-05 01:05:44,002 [print_results, line 86] INFO: | Subject (.\output\gpt-4o-mini\val\)   |   Data Num |   Acc |   Std |   Var |
+|---------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology      |        101 | 0.614 | 0.313 | 0.124 |
+| Industry_Jargon                       |         57 | 0.333 | 0.476 | 0.226 |
+| Standard_Nomenclature                 |         44 | 0.977 | 0.151 | 0.023 |
+| Overall-Domain Knowledge              |        292 | 0.637 | 0.474 | 0.225 |
+| Interior                              |         46 | 0.674 | 0.474 | 0.225 |
+| Materials                             |         43 | 0.814 | 0.394 | 0.155 |
+| Safety_Management                     |         41 | 0.634 | 0.488 | 0.238 |
+| Architectural_Planning                |         41 | 0.634 | 0.488 | 0.238 |
+| Construction_Management               |         34 | 0.676 | 0.475 | 0.225 |
+| Structural_Engineering                |         38 | 0.421 | 0.5   | 0.25  |
+| Building_System                       |         49 | 0.592 | 0.497 | 0.247 |
+| Overall-Domain Reasoning              |         10 | 0.3   | 0.483 | 0.233 |
+| Domain_Reasoning                      |         10 | 0.3   | 0.483 | 0.233 |
+| Overall-Drawing Interpretation        |         10 | 0.6   | 0.516 | 0.267 |
+| Drawing_Interpretation                |         10 | 0.6   | 0.516 | 0.267 |
+| Overall                               |        413 | 0.622 | 0.449 | 0.212 |
+2024-11-05 01:38:44,395 [print_results, line 86] INFO: | Subject (.\output\gemini-1.5-flash-latest\test\)   |   Data Num |   Acc |   Std |   Var |
+|----------------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology                   |       1020 | 0.442 | 0.47  | 0.221 |
+| Industry_Jargon                                    |        576 | 0.295 | 0.457 | 0.208 |
+| Standard_Nomenclature                              |        444 | 0.633 | 0.483 | 0.233 |
+| Overall-Domain Knowledge                           |       2841 | 0.444 | 0.494 | 0.244 |
+| Interior                                           |        359 | 0.432 | 0.496 | 0.246 |
+| Materials                                          |        408 | 0.488 | 0.5   | 0.25  |
+| Safety_Management                                  |        381 | 0.467 | 0.5   | 0.25  |
+| Architectural_Planning                             |        464 | 0.463 | 0.499 | 0.249 |
+| Construction_Management                            |        494 | 0.449 | 0.498 | 0.248 |
+| Structural_Engineering                             |        358 | 0.31  | 0.463 | 0.215 |
+| Building_System                                    |        377 | 0.477 | 0.5   | 0.25  |
+| Overall-Domain Reasoning                           |        258 | 0.395 | 0.49  | 0.24  |
+| Domain_Reasoning                                   |        258 | 0.395 | 0.49  | 0.24  |
+| Overall-Drawing Interpretation                     |        125 | 0.416 | 0.495 | 0.245 |
+| Drawing_Interpretation                             |        125 | 0.416 | 0.495 | 0.245 |
+| Overall                                            |       4244 | 0.439 | 0.489 | 0.239 |
+2024-11-05 02:19:07,309 [print_results, line 86] INFO: | Subject (.\output_genuine\gpt-4\dev\)   |   Data Num |   Acc |   Std |   Var |
+|-----------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology        |         10 | 0.4   | 0     | 0     |
+| Industry_Jargon                         |          6 | 0     | 0     | 0     |
+| Standard_Nomenclature                   |          4 | 1     | 0     | 0     |
+| Overall-Domain Knowledge                |         35 | 0.571 | 0.454 | 0.241 |
+| Interior                                |          6 | 0.333 | 0.516 | 0.267 |
+| Materials                               |          7 | 0.714 | 0.488 | 0.238 |
+| Safety_Management                       |          4 | 0.75  | 0.5   | 0.25  |
+| Architectural_Planning                  |          3 | 0.333 | 0.577 | 0.333 |
+| Construction_Management                 |          5 | 1     | 0     | 0     |
+| Structural_Engineering                  |          5 | 0.4   | 0.548 | 0.3   |
+| Building_System                         |          5 | 0.4   | 0.548 | 0.3   |
+| Overall-Domain Reasoning                |          2 | 0     | 0     | 0     |
+| Domain_Reasoning                        |          2 | 0     | 0     | 0     |
+| Overall-Drawing Interpretation          |          0 | 0     | 0     | 0     |
+| Overall                                 |         47 | 0.511 | 0.318 | 0.169 |
+2024-11-05 02:29:44,469 [print_results, line 86] INFO: | Subject (.\output_genuine\gpt-4\dev\)   |   Data Num |   Acc |   Std |   Var |
+|-----------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology        |         10 | 0.4   | 0     | 0     |
+| Industry_Jargon                         |          6 | 0     | 0     | 0     |
+| Standard_Nomenclature                   |          4 | 1     | 0     | 0     |
+| Overall-Domain Knowledge                |         35 | 0.571 | 0.454 | 0.241 |
+| Interior                                |          6 | 0.333 | 0.516 | 0.267 |
+| Materials                               |          7 | 0.714 | 0.488 | 0.238 |
+| Safety_Management                       |          4 | 0.75  | 0.5   | 0.25  |
+| Architectural_Planning                  |          3 | 0.333 | 0.577 | 0.333 |
+| Construction_Management                 |          5 | 1     | 0     | 0     |
+| Structural_Engineering                  |          5 | 0.4   | 0.548 | 0.3   |
+| Building_System                         |          5 | 0.4   | 0.548 | 0.3   |
+| Overall-Domain Reasoning                |          2 | 0     | 0     | 0     |
+| Domain_Reasoning                        |          2 | 0     | 0     | 0     |
+| Overall-Drawing Interpretation          |          0 | 0     | 0     | 0     |
+| Overall                                 |         47 | 0.511 | 0.318 | 0.169 |
+2024-11-05 02:33:39,329 [print_results, line 89] INFO: | Subject (.\output_genuine\gpt-4\dev\)   |   Data Num |   Acc |   Std |   Var |
+|-----------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology        |         10 | 0.4   | 0     | 0     |
+| Industry_Jargon                         |          6 | 0     | 0     | 0     |
+| Standard_Nomenclature                   |          4 | 1     | 0     | 0     |
+| Overall-Domain Knowledge                |         30 | 0.6   | 0.438 | 0.231 |
+| Interior                                |          6 | 0.333 | 0.516 | 0.267 |
+| Materials                               |          7 | 0.714 | 0.488 | 0.238 |
+| Safety_Management                       |          4 | 0.75  | 0.5   | 0.25  |
+| Architectural_Planning                  |          3 | 0.333 | 0.577 | 0.333 |
+| Construction_Management                 |          5 | 1     | 0     | 0     |
+| Building_System                         |          5 | 0.4   | 0.548 | 0.3   |
+| Overall-Domain Reasoning                |          2 | 0     | 0     | 0     |
+| Domain_Reasoning                        |          2 | 0     | 0     | 0     |
+| Overall-Drawing Interpretation          |          0 | 0     | 0     | 0     |
+| Overall                                 |         47 | 0.511 | 0.318 | 0.169 |
+2024-11-05 02:33:50,988 [print_results, line 90] INFO: | Subject (.\output_genuine\gpt-4\dev\)   |   Data Num |   Acc |   Std |   Var |
+|-----------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology        |         10 | 0.4   | 0     | 0     |
+| Industry_Jargon                         |          6 | 0     | 0     | 0     |
+| Standard_Nomenclature                   |          4 | 1     | 0     | 0     |
+| Overall-Domain Knowledge                |         30 | 0.6   | 0.438 | 0.231 |
+| Interior                                |          6 | 0.333 | 0.516 | 0.267 |
+| Materials                               |          7 | 0.714 | 0.488 | 0.238 |
+| Safety_Management                       |          4 | 0.75  | 0.5   | 0.25  |
+| Architectural_Planning                  |          3 | 0.333 | 0.577 | 0.333 |
+| Construction_Management                 |          5 | 1     | 0     | 0     |
+| Building_System                         |          5 | 0.4   | 0.548 | 0.3   |
+| Overall-Domain Reasoning                |          2 | 0     | 0     | 0     |
+| Domain_Reasoning                        |          2 | 0     | 0     | 0     |
+| Overall-Drawing Interpretation          |          0 | 0     | 0     | 0     |
+| Overall                                 |         47 | 0.511 | 0.318 | 0.169 |
+2024-11-05 02:36:53,710 [print_results, line 90] INFO: | Subject (.\output_genuine\gpt-4\dev\)   |   Data Num |   Acc |   Std |   Var |
+|-----------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology        |         10 | 0.4   | 0     | 0     |
+| Industry_Jargon                         |          6 | 0     | 0     | 0     |
+| Standard_Nomenclature                   |          4 | 1     | 0     | 0     |
+| Overall-Domain Knowledge                |         30 | 0.6   | 0.438 | 0.231 |
+| Interior                                |          6 | 0.333 | 0.516 | 0.267 |
+| Materials                               |          7 | 0.714 | 0.488 | 0.238 |
+| Safety_Management                       |          4 | 0.75  | 0.5   | 0.25  |
+| Architectural_Planning                  |          3 | 0.333 | 0.577 | 0.333 |
+| Construction_Management                 |          5 | 1     | 0     | 0     |
+| Building_System                         |          5 | 0.4   | 0.548 | 0.3   |
+| Overall-Domain Reasoning                |          2 | 0     | 0     | 0     |
+| Domain_Reasoning                        |          2 | 0     | 0     | 0     |
+| Overall                                 |         47 | 0.511 | 0.318 | 0.169 |
+2024-11-05 02:39:12,918 [print_results, line 90] INFO: | Subject (.\output_genuine\gpt-4\dev\)   |   Data Num |   Acc |   Std |   Var |
+|-----------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology        |         10 | 0.4   | 0     | 0     |
+| Industry_Jargon                         |          6 | 0     | 0     | 0     |
+| Standard_Nomenclature                   |          4 | 1     | 0     | 0     |
+| Overall-Domain Knowledge                |         30 | 0.6   | 0.438 | 0.231 |
+| Interior                                |          6 | 0.333 | 0.516 | 0.267 |
+| Materials                               |          7 | 0.714 | 0.488 | 0.238 |
+| Safety_Management                       |          4 | 0.75  | 0.5   | 0.25  |
+| Architectural_Planning                  |          3 | 0.333 | 0.577 | 0.333 |
+| Construction_Management                 |          5 | 1     | 0     | 0     |
+| Building_System                         |          5 | 0.4   | 0.548 | 0.3   |
+| Overall-Domain Reasoning                |          2 | 0     | 0     | 0     |
+| Domain_Reasoning                        |          2 | 0     | 0     | 0     |
+| Overall                                 |         47 | 0.511 | 0.318 | 0.169 |
+2024-11-05 02:41:21,035 [print_results, line 90] INFO: | Subject (.\output_genuine\gpt-4\val\)   |   Data Num |   Acc |   Std |   Var |
+|-----------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology        |        101 | 0.644 | 0.243 | 0.118 |
+| Industry_Jargon                         |         57 | 0.368 | 0.487 | 0.237 |
+| Standard_Nomenclature                   |         44 | 1     | 0     | 0     |
+| Overall-Domain Knowledge                |        233 | 0.652 | 0.475 | 0.226 |
+| Interior                                |         43 | 0.558 | 0.502 | 0.252 |
+| Materials                               |         43 | 0.674 | 0.474 | 0.225 |
+| Safety_Management                       |         40 | 0.575 | 0.501 | 0.251 |
+| Architectural_Planning                  |         35 | 0.714 | 0.458 | 0.21  |
+| Construction_Management                 |         32 | 0.625 | 0.492 | 0.242 |
+| Building_System                         |         40 | 0.775 | 0.423 | 0.179 |
+| Overall-Domain Reasoning                |          4 | 0.5   | 0.577 | 0.333 |
+| Domain_Reasoning                        |          4 | 0.5   | 0.577 | 0.333 |
+| Overall                                 |        338 | 0.648 | 0.435 | 0.214 |
+2024-11-05 03:12:03,521 [print_results, line 90] INFO: | Subject (.\output\gemini-1.5-flash-latest\test\)   |   Data Num |   Acc |   Std |   Var |
+|----------------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology                   |       1020 | 0.442 | 0.47  | 0.221 |
+| Industry_Jargon                                    |        576 | 0.295 | 0.457 | 0.208 |
+| Standard_Nomenclature                              |        444 | 0.633 | 0.483 | 0.233 |
+| Overall-Domain Knowledge                           |       2841 | 0.444 | 0.494 | 0.244 |
+| Interior                                           |        359 | 0.432 | 0.496 | 0.246 |
+| Materials                                          |        408 | 0.488 | 0.5   | 0.25  |
+| Safety_Management                                  |        381 | 0.467 | 0.5   | 0.25  |
+| Architectural_Planning                             |        464 | 0.463 | 0.499 | 0.249 |
+| Construction_Management                            |        494 | 0.449 | 0.498 | 0.248 |
+| Structural_Engineering                             |        358 | 0.31  | 0.463 | 0.215 |
+| Building_System                                    |        377 | 0.477 | 0.5   | 0.25  |
+| Overall-Domain Reasoning                           |        258 | 0.395 | 0.49  | 0.24  |
+| Domain_Reasoning                                   |        258 | 0.395 | 0.49  | 0.24  |
+| Overall-Drawing Interpretation                     |        125 | 0.416 | 0.495 | 0.245 |
+| Drawing_Interpretation                             |        125 | 0.416 | 0.495 | 0.245 |
+| Overall                                            |       4244 | 0.439 | 0.489 | 0.239 |
+2024-11-05 03:24:18,841 [print_results, line 90] INFO: | Subject (.\output_genuine\gemini-1.0-pro-latest\dev\)   |   Data Num |   Acc |   Std |   Var |
+|---------------------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology                        |         10 | 0.4   | 0     | 0     |
+| Industry_Jargon                                         |          6 | 0     | 0     | 0     |
+| Standard_Nomenclature                                   |          4 | 1     | 0     | 0     |
+| Overall-Domain Knowledge                                |         30 | 0.567 | 0.533 | 0.287 |
+| Interior                                                |          6 | 0.333 | 0.516 | 0.267 |
+| Materials                                               |          7 | 0.571 | 0.535 | 0.286 |
+| Safety_Management                                       |          4 | 0.5   | 0.577 | 0.333 |
+| Architectural_Planning                                  |          3 | 0.667 | 0.577 | 0.333 |
+| Construction_Management                                 |          5 | 0.8   | 0.447 | 0.2   |
+| Building_System                                         |          5 | 0.6   | 0.548 | 0.3   |
+| Overall-Domain Reasoning                                |          2 | 0.5   | 0.707 | 0.5   |
+| Domain_Reasoning                                        |          2 | 0.5   | 0.707 | 0.5   |
+| Overall                                                 |         42 | 0.524 | 0.434 | 0.247 |
+2024-11-05 03:52:45,728 [print_results, line 90] INFO: | Subject (.\output_genuine\gemini-1.0-pro-latest\val\)   |   Data Num |   Acc |   Std |   Var |
+|---------------------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology                        |        101 | 0.604 | 0.231 | 0.107 |
+| Industry_Jargon                                         |         57 | 0.298 | 0.462 | 0.213 |
+| Standard_Nomenclature                                   |         44 | 1     | 0     | 0     |
+| Overall-Domain Knowledge                                |        233 | 0.627 | 0.483 | 0.234 |
+| Interior                                                |         43 | 0.535 | 0.505 | 0.255 |
+| Materials                                               |         43 | 0.767 | 0.427 | 0.183 |
+| Safety_Management                                       |         40 | 0.55  | 0.504 | 0.254 |
+| Architectural_Planning                                  |         35 | 0.657 | 0.482 | 0.232 |
+| Construction_Management                                 |         32 | 0.594 | 0.499 | 0.249 |
+| Building_System                                         |         40 | 0.65  | 0.483 | 0.233 |
+| Overall-Domain Reasoning                                |          4 | 0.25  | 0.5   | 0.25  |
+| Domain_Reasoning                                        |          4 | 0.25  | 0.5   | 0.25  |
+| Overall                                                 |        338 | 0.615 | 0.429 | 0.208 |
+2024-11-05 05:17:01,066 [print_results, line 90] INFO: | Subject (.\output\gpt-4o-mini\test\)   |   Data Num |   Acc |   Std |   Var |
+|----------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology       |       1020 | 0.593 | 0.357 | 0.14  |
+| Industry_Jargon                        |        576 | 0.328 | 0.47  | 0.221 |
+| Standard_Nomenclature                  |        444 | 0.937 | 0.243 | 0.059 |
+| Overall-Domain Knowledge               |       2841 | 0.585 | 0.484 | 0.234 |
+| Interior                               |        359 | 0.496 | 0.501 | 0.251 |
+| Materials                              |        408 | 0.723 | 0.448 | 0.201 |
+| Safety_Management                      |        381 | 0.604 | 0.49  | 0.24  |
+| Architectural_Planning                 |        464 | 0.61  | 0.488 | 0.238 |
+| Construction_Management                |        494 | 0.632 | 0.483 | 0.233 |
+| Structural_Engineering                 |        358 | 0.38  | 0.486 | 0.236 |
+| Building_System                        |        377 | 0.607 | 0.489 | 0.239 |
+| Overall-Domain Reasoning               |        258 | 0.395 | 0.49  | 0.24  |
+| Domain_Reasoning                       |        258 | 0.395 | 0.49  | 0.24  |
+| Overall-Drawing Interpretation         |        125 | 0.368 | 0.484 | 0.234 |
+| Drawing_Interpretation                 |        125 | 0.368 | 0.484 | 0.234 |
+| Overall                                |       4244 | 0.569 | 0.461 | 0.218 |
+2024-11-05 05:19:46,837 [print_results, line 90] INFO: | Subject (.\output\gpt-4o\test\)   |   Data Num |   Acc |   Std |   Var |
+|-----------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology  |        576 | 0.503 | 0.5   | 0.25  |
+| Industry_Jargon                   |        576 | 0.503 | 0.5   | 0.25  |
+| Overall-Domain Knowledge          |       2460 | 0.7   | 0.445 | 0.2   |
+| Interior                          |        359 | 0.627 | 0.484 | 0.235 |
+| Materials                         |        408 | 0.831 | 0.375 | 0.141 |
+| Architectural_Planning            |        464 | 0.756 | 0.43  | 0.185 |
+| Construction_Management           |        494 | 0.737 | 0.441 | 0.194 |
+| Structural_Engineering            |        358 | 0.466 | 0.5   | 0.25  |
+| Building_System                   |        377 | 0.735 | 0.442 | 0.195 |
+| Overall-Domain Reasoning          |        258 | 0.438 | 0.497 | 0.247 |
+| Domain_Reasoning                  |        258 | 0.438 | 0.497 | 0.247 |
+| Overall-Drawing Interpretation    |        125 | 0.336 | 0.474 | 0.225 |
+| Drawing_Interpretation            |        125 | 0.336 | 0.474 | 0.225 |
+| Overall                           |       3419 | 0.634 | 0.46  | 0.214 |
+2024-11-05 05:21:45,679 [print_results, line 90] INFO: | Subject (.\output_genuine\gpt-4\test\)   |   Data Num |   Acc |   Std |   Var |
+|------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology         |       1020 | 0.585 | 0.341 | 0.131 |
+| Industry_Jargon                          |        576 | 0.306 | 0.461 | 0.213 |
+| Standard_Nomenclature                    |        444 | 0.948 | 0.222 | 0.049 |
+| Overall-Domain Knowledge                 |       2338 | 0.646 | 0.474 | 0.225 |
+| Interior                                 |        342 | 0.512 | 0.501 | 0.251 |
+| Materials                                |        398 | 0.736 | 0.441 | 0.195 |
+| Safety_Management                        |        353 | 0.643 | 0.48  | 0.23  |
+| Architectural_Planning                   |        431 | 0.664 | 0.473 | 0.224 |
+| Construction_Management                  |        480 | 0.619 | 0.486 | 0.236 |
+| Building_System                          |        334 | 0.695 | 0.461 | 0.213 |
+| Overall-Domain Reasoning                 |        108 | 0.324 | 0.47  | 0.221 |
+| Domain_Reasoning                         |        108 | 0.324 | 0.47  | 0.221 |
+| Overall                                  |       3466 | 0.618 | 0.444 | 0.203 |
+2024-11-05 07:07:17,258 [print_results, line 90] INFO: | Subject (.\output_genuine\gemini-1.0-pro-latest\test\)   |   Data Num |   Acc |   Std |   Var |
+|----------------------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology                         |       1020 | 0.58  | 0.355 | 0.137 |
+| Industry_Jargon                                          |        576 | 0.307 | 0.462 | 0.213 |
+| Standard_Nomenclature                                    |        444 | 0.935 | 0.247 | 0.061 |
+| Overall-Domain Knowledge                                 |       2338 | 0.58  | 0.49  | 0.24  |
+| Interior                                                 |        342 | 0.444 | 0.498 | 0.248 |
+| Materials                                                |        398 | 0.676 | 0.469 | 0.22  |
+| Safety_Management                                        |        353 | 0.561 | 0.497 | 0.247 |
+| Architectural_Planning                                   |        431 | 0.61  | 0.488 | 0.238 |
+| Construction_Management                                  |        480 | 0.602 | 0.49  | 0.24  |
+| Building_System                                          |        334 | 0.551 | 0.498 | 0.248 |
+| Overall-Domain Reasoning                                 |        108 | 0.324 | 0.47  | 0.221 |
+| Domain_Reasoning                                         |        108 | 0.324 | 0.47  | 0.221 |
+| Overall                                                  |       3466 | 0.572 | 0.458 | 0.215 |
+2024-11-05 10:15:26,589 [print_results, line 90] INFO: | Subject (.\output\claude-3-5-sonnet-20241022\test\)   |   Data Num |   Acc |   Std |   Var |
+|-------------------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology                      |        576 | 0.441 | 0.497 | 0.247 |
+| Industry_Jargon                                       |        576 | 0.441 | 0.497 | 0.247 |
+| Overall-Domain Knowledge                              |       1694 | 0.634 | 0.478 | 0.229 |
+| Interior                                              |        359 | 0.535 | 0.499 | 0.249 |
+| Architectural_Planning                                |        464 | 0.677 | 0.468 | 0.219 |
+| Construction_Management                               |        494 | 0.613 | 0.487 | 0.238 |
+| Building_System                                       |        377 | 0.703 | 0.458 | 0.209 |
+| Overall-Domain Reasoning                              |        258 | 0.624 | 0.485 | 0.236 |
+| Domain_Reasoning                                      |        258 | 0.624 | 0.485 | 0.236 |
+| Overall-Drawing Interpretation                        |        125 | 0.456 | 0.5   | 0.25  |
+| Drawing_Interpretation                                |        125 | 0.456 | 0.5   | 0.25  |
+| Overall                                               |       2653 | 0.583 | 0.485 | 0.235 |
+2024-11-05 16:14:40,152 [print_results, line 90] INFO: | Subject (.\output_genuine\gpt-4o\dev\)   |   Data Num |   Acc |   Std |   Var |
+|------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology         |          0 |     0 |     0 |     0 |
+| Overall-Domain Knowledge                 |          0 |     0 |     0 |     0 |
+| Overall-Domain Reasoning                 |          0 |     0 |     0 |     0 |
+| Overall                                  |          0 |     0 |     0 |     0 |
+2024-11-05 16:16:13,046 [print_results, line 90] INFO: | Subject (.\output_genuine\gpt-4o\dev\)   |   Data Num |   Acc |   Std |   Var |
+|------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology         |          0 |     0 |     0 |     0 |
+| Overall-Domain Knowledge                 |          0 |     0 |     0 |     0 |
+| Overall-Domain Reasoning                 |          0 |     0 |     0 |     0 |
+| Overall                                  |          0 |     0 |     0 |     0 |
+2024-11-05 16:17:20,189 [print_results, line 90] INFO: | Subject (.\output_genuine\gpt-4o\dev\)   |   Data Num |   Acc |   Std |   Var |
+|------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology         |          0 |     0 |     0 |     0 |
+| Overall-Domain Knowledge                 |          0 |     0 |     0 |     0 |
+| Overall-Domain Reasoning                 |          0 |     0 |     0 |     0 |
+| Overall                                  |          0 |     0 |     0 |     0 |
+2024-11-05 16:18:37,619 [print_results, line 90] INFO: | Subject (.\output_genuine\gpt-4o\dev)   |   Data Num |   Acc |   Std |   Var |
+|-----------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology        |         10 | 0.6   | 0.258 | 0.133 |
+| Industry_Jargon                         |          6 | 0.333 | 0.516 | 0.267 |
+| Standard_Nomenclature                   |          4 | 1     | 0     | 0     |
+| Overall-Domain Knowledge                |         30 | 0.833 | 0.242 | 0.117 |
+| Interior                                |          6 | 0.667 | 0.516 | 0.267 |
+| Materials                               |          7 | 0.714 | 0.488 | 0.238 |
+| Safety_Management                       |          4 | 1     | 0     | 0     |
+| Architectural_Planning                  |          3 | 1     | 0     | 0     |
+| Construction_Management                 |          5 | 1     | 0     | 0     |
+| Building_System                         |          5 | 0.8   | 0.447 | 0.2   |
+| Overall-Domain Reasoning                |          2 | 1     | 0     | 0     |
+| Domain_Reasoning                        |          2 | 1     | 0     | 0     |
+| Overall                                 |         42 | 0.786 | 0.219 | 0.108 |
+2024-11-05 16:24:50,489 [print_results, line 90] INFO: | Subject (.\output_genuine\gpt-4o\val)   |   Data Num |   Acc |   Std |   Var |
+|-----------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology        |        101 | 0.683 | 0.25  | 0.125 |
+| Industry_Jargon                         |         57 | 0.439 | 0.501 | 0.251 |
+| Standard_Nomenclature                   |         44 | 1     | 0     | 0     |
+| Overall-Domain Knowledge                |        233 | 0.803 | 0.395 | 0.158 |
+| Interior                                |         43 | 0.721 | 0.454 | 0.206 |
+| Materials                               |         43 | 0.791 | 0.412 | 0.169 |
+| Safety_Management                       |         40 | 0.775 | 0.423 | 0.179 |
+| Architectural_Planning                  |         35 | 0.857 | 0.355 | 0.126 |
+| Construction_Management                 |         32 | 0.781 | 0.42  | 0.176 |
+| Building_System                         |         40 | 0.9   | 0.304 | 0.092 |
+| Overall-Domain Reasoning                |          4 | 0.75  | 0.5   | 0.25  |
+| Domain_Reasoning                        |          4 | 0.75  | 0.5   | 0.25  |
+| Overall                                 |        363 | 0.76  | 0.384 | 0.168 |
+2024-11-05 16:24:54,086 [print_results, line 90] INFO: | Subject (.\output_genuine\gpt-4o\test)   |   Data Num |   Acc |   Std |   Var |
+|------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology         |        576 | 0.503 | 0.5   | 0.25  |
+| Industry_Jargon                          |        576 | 0.503 | 0.5   | 0.25  |
+| Overall-Domain Knowledge                 |       1985 | 0.764 | 0.419 | 0.177 |
+| Interior                                 |        342 | 0.64  | 0.481 | 0.231 |
+| Materials                                |        398 | 0.844 | 0.363 | 0.132 |
+| Architectural_Planning                   |        431 | 0.787 | 0.41  | 0.168 |
+| Construction_Management                  |        480 | 0.748 | 0.435 | 0.189 |
+| Building_System                          |        334 | 0.79  | 0.408 | 0.166 |
+| Overall-Domain Reasoning                 |        108 | 0.611 | 0.49  | 0.24  |
+| Domain_Reasoning                         |        108 | 0.611 | 0.49  | 0.24  |
+| Overall                                  |       2870 | 0.697 | 0.446 | 0.201 |
+2024-11-05 16:44:09,259 [print_results, line 90] INFO: | Subject (.\output_genuine\gpt-4\)   |   Data Num |   Acc |   Std |   Var |
+|-------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology    |          0 |     0 |     0 |     0 |
+| Overall-Domain Knowledge            |          0 |     0 |     0 |     0 |
+| Overall-Domain Reasoning            |          0 |     0 |     0 |     0 |
+| Overall                             |          0 |     0 |     0 |     0 |
+2024-11-05 16:46:36,243 [print_results, line 90] INFO: | Subject (.\output_genuine\gpt-4\)   |   Data Num |   Acc |   Std |   Var |
+|-------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology    |          0 |     0 |     0 |     0 |
+| Overall-Domain Knowledge            |          0 |     0 |     0 |     0 |
+| Overall-Domain Reasoning            |          0 |     0 |     0 |     0 |
+| Overall                             |          0 |     0 |     0 |     0 |
+2024-11-05 16:46:53,727 [print_results, line 90] INFO: | Subject (.\output_genuine\gpt-4\dev\)   |   Data Num |   Acc |   Std |   Var |
+|-----------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology        |         10 | 0.4   | 0     | 0     |
+| Industry_Jargon                         |          6 | 0     | 0     | 0     |
+| Standard_Nomenclature                   |          4 | 1     | 0     | 0     |
+| Overall-Domain Knowledge                |         30 | 0.6   | 0.438 | 0.231 |
+| Interior                                |          6 | 0.333 | 0.516 | 0.267 |
+| Materials                               |          7 | 0.714 | 0.488 | 0.238 |
+| Safety_Management                       |          4 | 0.75  | 0.5   | 0.25  |
+| Architectural_Planning                  |          3 | 0.333 | 0.577 | 0.333 |
+| Construction_Management                 |          5 | 1     | 0     | 0     |
+| Building_System                         |          5 | 0.4   | 0.548 | 0.3   |
+| Overall-Domain Reasoning                |          2 | 0     | 0     | 0     |
+| Domain_Reasoning                        |          2 | 0     | 0     | 0     |
+| Overall                                 |         47 | 0.511 | 0.318 | 0.169 |
+2024-11-05 16:48:03,832 [print_results, line 90] INFO: | Subject (.\output_genuine\gpt-4\val)   |   Data Num |   Acc |   Std |   Var |
+|----------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology       |        101 | 0.644 | 0.243 | 0.118 |
+| Industry_Jargon                        |         57 | 0.368 | 0.487 | 0.237 |
+| Standard_Nomenclature                  |         44 | 1     | 0     | 0     |
+| Overall-Domain Knowledge               |        233 | 0.652 | 0.475 | 0.226 |
+| Interior                               |         43 | 0.558 | 0.502 | 0.252 |
+| Materials                              |         43 | 0.674 | 0.474 | 0.225 |
+| Safety_Management                      |         40 | 0.575 | 0.501 | 0.251 |
+| Architectural_Planning                 |         35 | 0.714 | 0.458 | 0.21  |
+| Construction_Management                |         32 | 0.625 | 0.492 | 0.242 |
+| Building_System                        |         40 | 0.775 | 0.423 | 0.179 |
+| Overall-Domain Reasoning               |          4 | 0.5   | 0.577 | 0.333 |
+| Domain_Reasoning                       |          4 | 0.5   | 0.577 | 0.333 |
+| Overall                                |        363 | 0.642 | 0.442 | 0.219 |
+2024-11-05 17:15:57,585 [print_results, line 90] INFO: | Subject (.\output_genuine\gemini-1.0-pro-latest\val)   |   Data Num |   Acc |   Std |   Var |
+|--------------------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology                       |        101 | 0.604 | 0.231 | 0.107 |
+| Industry_Jargon                                        |         57 | 0.298 | 0.462 | 0.213 |
+| Standard_Nomenclature                                  |         44 | 1     | 0     | 0     |
+| Overall-Domain Knowledge                               |        233 | 0.627 | 0.483 | 0.234 |
+| Interior                                               |         43 | 0.535 | 0.505 | 0.255 |
+| Materials                                              |         43 | 0.767 | 0.427 | 0.183 |
+| Safety_Management                                      |         40 | 0.55  | 0.504 | 0.254 |
+| Architectural_Planning                                 |         35 | 0.657 | 0.482 | 0.232 |
+| Construction_Management                                |         32 | 0.594 | 0.499 | 0.249 |
+| Building_System                                        |         40 | 0.65  | 0.483 | 0.233 |
+| Overall-Domain Reasoning                               |          4 | 0.25  | 0.5   | 0.25  |
+| Domain_Reasoning                                       |          4 | 0.25  | 0.5   | 0.25  |
+| Overall                                                |        363 | 0.603 | 0.437 | 0.213 |
+2024-11-05 17:18:20,401 [print_results, line 90] INFO: | Subject (.\output_genuine\gemini-1.0-pro-latest\test\)   |   Data Num |   Acc |   Std |   Var |
+|----------------------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology                         |       1020 | 0.58  | 0.355 | 0.137 |
+| Industry_Jargon                                          |        576 | 0.307 | 0.462 | 0.213 |
+| Standard_Nomenclature                                    |        444 | 0.935 | 0.247 | 0.061 |
+| Overall-Domain Knowledge                                 |       2338 | 0.58  | 0.49  | 0.24  |
+| Interior                                                 |        342 | 0.444 | 0.498 | 0.248 |
+| Materials                                                |        398 | 0.676 | 0.469 | 0.22  |
+| Safety_Management                                        |        353 | 0.561 | 0.497 | 0.247 |
+| Architectural_Planning                                   |        431 | 0.61  | 0.488 | 0.238 |
+| Construction_Management                                  |        480 | 0.602 | 0.49  | 0.24  |
+| Building_System                                          |        334 | 0.551 | 0.498 | 0.248 |
+| Overall-Domain Reasoning                                 |        108 | 0.324 | 0.47  | 0.221 |
+| Domain_Reasoning                                         |        108 | 0.324 | 0.47  | 0.221 |
+| Overall                                                  |       3667 | 0.564 | 0.462 | 0.218 |
+2024-11-05 17:43:25,528 [print_results, line 90] INFO: | Subject (.\output_genuine\canny\val\)   |   Data Num |   Acc |   Std |   Var |
+|-----------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology        |        101 | 0.149 | 0.36  | 0.13  |
+| Industry_Jargon                         |         57 | 0.14  | 0.35  | 0.123 |
+| Standard_Nomenclature                   |         44 | 0.159 | 0.37  | 0.137 |
+| Overall-Domain Knowledge                |        233 | 0.206 | 0.396 | 0.159 |
+| Interior                                |         43 | 0.326 | 0.474 | 0.225 |
+| Materials                               |         43 | 0.233 | 0.427 | 0.183 |
+| Safety_Management                       |         40 | 0.175 | 0.385 | 0.148 |
+| Architectural_Planning                  |         35 | 0.2   | 0.406 | 0.165 |
+| Construction_Management                 |         32 | 0.094 | 0.296 | 0.088 |
+| Building_System                         |         40 | 0.175 | 0.385 | 0.148 |
+| Overall-Domain Reasoning                |          4 | 0     | 0     | 0     |
+| Domain_Reasoning                        |          4 | 0     | 0     | 0     |
+| Overall                                 |        363 | 0.193 | 0.355 | 0.143 |
+2024-11-05 17:43:28,413 [print_results, line 90] INFO: | Subject (.\output_genuine\canny\test\)   |   Data Num |   Acc |   Std |   Var |
+|------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology         |       1020 | 0.197 | 0.398 | 0.158 |
+| Industry_Jargon                          |        576 | 0.201 | 0.401 | 0.161 |
+| Standard_Nomenclature                    |        444 | 0.191 | 0.394 | 0.155 |
+| Overall-Domain Knowledge                 |       2338 | 0.26  | 0.439 | 0.193 |
+| Interior                                 |        342 | 0.289 | 0.454 | 0.206 |
+| Materials                                |        398 | 0.261 | 0.44  | 0.194 |
+| Safety_Management                        |        353 | 0.249 | 0.433 | 0.188 |
+| Architectural_Planning                   |        431 | 0.258 | 0.438 | 0.192 |
+| Construction_Management                  |        480 | 0.252 | 0.435 | 0.189 |
+| Building_System                          |        334 | 0.251 | 0.435 | 0.189 |
+| Overall-Domain Reasoning                 |        108 | 0.148 | 0.357 | 0.127 |
+| Domain_Reasoning                         |        108 | 0.148 | 0.357 | 0.127 |
+| Overall                                  |       3667 | 0.236 | 0.42  | 0.177 |
+2024-11-05 17:49:22,689 [print_results, line 90] INFO: | Subject (.\output_genuine\claude-3-5-sonnet-20241022\val\)   |   Data Num |   Acc |   Std |   Var |
+|--------------------------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology                             |        101 | 0.703 | 0.328 | 0.139 |
+| Industry_Jargon                                              |         57 | 0.491 | 0.504 | 0.254 |
+| Standard_Nomenclature                                        |         44 | 0.977 | 0.151 | 0.023 |
+| Overall-Domain Knowledge                                     |        233 | 0.708 | 0.454 | 0.207 |
+| Interior                                                     |         43 | 0.651 | 0.482 | 0.233 |
+| Materials                                                    |         43 | 0.628 | 0.489 | 0.239 |
+| Safety_Management                                            |         40 | 0.8   | 0.405 | 0.164 |
+| Architectural_Planning                                       |         35 | 0.771 | 0.426 | 0.182 |
+| Construction_Management                                      |         32 | 0.719 | 0.457 | 0.209 |
+| Building_System                                              |         40 | 0.7   | 0.464 | 0.215 |
+| Overall-Domain Reasoning                                     |          4 | 1     | 0     | 0     |
+| Domain_Reasoning                                             |          4 | 1     | 0     | 0     |
+| Overall                                                      |        363 | 0.708 | 0.385 | 0.175 |
+2024-11-05 17:49:25,762 [print_results, line 90] INFO: | Subject (.\output_genuine\claude-3-5-sonnet-20241022\test\)   |   Data Num |   Acc |   Std |   Var |
+|---------------------------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology                              |        576 | 0.441 | 0.497 | 0.247 |
+| Industry_Jargon                                               |        576 | 0.441 | 0.497 | 0.247 |
+| Overall-Domain Knowledge                                      |       1587 | 0.642 | 0.475 | 0.226 |
+| Interior                                                      |        342 | 0.541 | 0.499 | 0.249 |
+| Architectural_Planning                                        |        431 | 0.689 | 0.463 | 0.215 |
+| Construction_Management                                       |        480 | 0.619 | 0.486 | 0.236 |
+| Building_System                                               |        334 | 0.719 | 0.45  | 0.203 |
+| Overall-Domain Reasoning                                      |        108 | 0.713 | 0.454 | 0.207 |
+| Domain_Reasoning                                              |        108 | 0.713 | 0.454 | 0.207 |
+| Overall                                                       |       2271 | 0.594 | 0.475 | 0.226 |
+2024-11-05 17:56:25,218 [print_results, line 90] INFO: | Subject (.\output_genuine\gemini-1.0-pro-latest\val\)   |   Data Num |   Acc |   Std |   Var |
+|---------------------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology                        |        101 | 0.604 | 0.231 | 0.107 |
+| Industry_Jargon                                         |         57 | 0.298 | 0.462 | 0.213 |
+| Standard_Nomenclature                                   |         44 | 1     | 0     | 0     |
+| Overall-Domain Knowledge                                |        233 | 0.627 | 0.483 | 0.234 |
+| Interior                                                |         43 | 0.535 | 0.505 | 0.255 |
+| Materials                                               |         43 | 0.767 | 0.427 | 0.183 |
+| Safety_Management                                       |         40 | 0.55  | 0.504 | 0.254 |
+| Architectural_Planning                                  |         35 | 0.657 | 0.482 | 0.232 |
+| Construction_Management                                 |         32 | 0.594 | 0.499 | 0.249 |
+| Building_System                                         |         40 | 0.65  | 0.483 | 0.233 |
+| Overall-Domain Reasoning                                |          4 | 0.25  | 0.5   | 0.25  |
+| Domain_Reasoning                                        |          4 | 0.25  | 0.5   | 0.25  |
+| Overall                                                 |        363 | 0.603 | 0.437 | 0.213 |
+2024-11-05 17:56:27,618 [print_results, line 90] INFO: | Subject (.\output_genuine\gemini-1.0-pro-latest\test\)   |   Data Num |   Acc |   Std |   Var |
+|----------------------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology                         |       1020 | 0.58  | 0.355 | 0.137 |
+| Industry_Jargon                                          |        576 | 0.307 | 0.462 | 0.213 |
+| Standard_Nomenclature                                    |        444 | 0.935 | 0.247 | 0.061 |
+| Overall-Domain Knowledge                                 |       2338 | 0.58  | 0.49  | 0.24  |
+| Interior                                                 |        342 | 0.444 | 0.498 | 0.248 |
+| Materials                                                |        398 | 0.676 | 0.469 | 0.22  |
+| Safety_Management                                        |        353 | 0.561 | 0.497 | 0.247 |
+| Architectural_Planning                                   |        431 | 0.61  | 0.488 | 0.238 |
+| Construction_Management                                  |        480 | 0.602 | 0.49  | 0.24  |
+| Building_System                                          |        334 | 0.551 | 0.498 | 0.248 |
+| Overall-Domain Reasoning                                 |        108 | 0.324 | 0.47  | 0.221 |
+| Domain_Reasoning                                         |        108 | 0.324 | 0.47  | 0.221 |
+| Overall                                                  |       3667 | 0.564 | 0.462 | 0.218 |
+2024-11-05 17:57:20,001 [print_results, line 90] INFO: | Subject (.\output_genuine\gemini-1.5-flash-latest\val)   |   Data Num |   Acc |   Std |   Var |
+|----------------------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology                         |        101 | 0.455 | 0.471 | 0.221 |
+| Industry_Jargon                                          |         57 | 0.298 | 0.462 | 0.213 |
+| Standard_Nomenclature                                    |         44 | 0.659 | 0.479 | 0.23  |
+| Overall-Domain Knowledge                                 |        233 | 0.532 | 0.502 | 0.252 |
+| Interior                                                 |         43 | 0.558 | 0.502 | 0.252 |
+| Materials                                                |         43 | 0.465 | 0.505 | 0.255 |
+| Safety_Management                                        |         40 | 0.5   | 0.506 | 0.256 |
+| Architectural_Planning                                   |         35 | 0.571 | 0.502 | 0.252 |
+| Construction_Management                                  |         32 | 0.625 | 0.492 | 0.242 |
+| Building_System                                          |         40 | 0.5   | 0.506 | 0.256 |
+| Overall-Domain Reasoning                                 |          4 | 0.5   | 0.577 | 0.333 |
+| Domain_Reasoning                                         |          4 | 0.5   | 0.577 | 0.333 |
+| Overall                                                  |        363 | 0.512 | 0.504 | 0.255 |
+2024-11-05 17:57:22,807 [print_results, line 90] INFO: | Subject (.\output_genuine\gemini-1.5-flash-latest\test\)   |   Data Num |   Acc |   Std |   Var |
+|------------------------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology                           |       1020 | 0.442 | 0.47  | 0.221 |
+| Industry_Jargon                                            |        576 | 0.295 | 0.457 | 0.208 |
+| Standard_Nomenclature                                      |        444 | 0.633 | 0.483 | 0.233 |
+| Overall-Domain Knowledge                                   |       2338 | 0.47  | 0.499 | 0.249 |
+| Interior                                                   |        342 | 0.433 | 0.496 | 0.246 |
+| Materials                                                  |        398 | 0.487 | 0.5   | 0.25  |
+| Safety_Management                                          |        353 | 0.493 | 0.501 | 0.251 |
+| Architectural_Planning                                     |        431 | 0.471 | 0.5   | 0.25  |
+| Construction_Management                                    |        480 | 0.45  | 0.498 | 0.248 |
+| Building_System                                            |        334 | 0.488 | 0.501 | 0.251 |
+| Overall-Domain Reasoning                                   |        108 | 0.417 | 0.495 | 0.245 |
+| Domain_Reasoning                                           |        108 | 0.417 | 0.495 | 0.245 |
+| Overall                                                    |       3667 | 0.454 | 0.491 | 0.241 |
+2024-11-05 18:21:14,597 [print_results, line 90] INFO: | Subject (.\output_genuine\gemini-1.5-pro-latest\)   |   Data Num |   Acc |   Std |   Var |
+|-----------------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology                    |          0 |     0 |     0 |     0 |
+| Overall-Domain Knowledge                            |          0 |     0 |     0 |     0 |
+| Overall-Domain Reasoning                            |          0 |     0 |     0 |     0 |
+| Overall                                             |          0 |     0 |     0 |     0 |
+2024-11-05 18:21:23,673 [print_results, line 90] INFO: | Subject (.\output_genuine\gemini-1.5-pro-latest\)   |   Data Num |   Acc |   Std |   Var |
+|-----------------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology                    |          0 |     0 |     0 |     0 |
+| Overall-Domain Knowledge                            |          0 |     0 |     0 |     0 |
+| Overall-Domain Reasoning                            |          0 |     0 |     0 |     0 |
+| Overall                                             |          0 |     0 |     0 |     0 |
+2024-11-05 18:22:23,585 [print_results, line 90] INFO: | Subject (.\output_genuine\gemini-1.5-pro-latest\val\)   |   Data Num |   Acc |   Std |   Var |
+|---------------------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology                        |        101 | 0.604 | 0.494 | 0.244 |
+| Industry_Jargon                                         |         57 | 0.632 | 0.487 | 0.237 |
+| Standard_Nomenclature                                   |         44 | 0.568 | 0.501 | 0.251 |
+| Overall-Domain Knowledge                                |        233 | 0.708 | 0.448 | 0.202 |
+| Interior                                                |         43 | 0.558 | 0.502 | 0.252 |
+| Materials                                               |         43 | 0.721 | 0.454 | 0.206 |
+| Safety_Management                                       |         40 | 0.65  | 0.483 | 0.233 |
+| Architectural_Planning                                  |         35 | 0.743 | 0.443 | 0.197 |
+| Construction_Management                                 |         32 | 0.781 | 0.42  | 0.176 |
+| Building_System                                         |         40 | 0.825 | 0.385 | 0.148 |
+| Overall-Domain Reasoning                                |          4 | 0.75  | 0.5   | 0.25  |
+| Domain_Reasoning                                        |          4 | 0.75  | 0.5   | 0.25  |
+| Overall                                                 |        363 | 0.672 | 0.468 | 0.22  |
+2024-11-05 18:22:28,144 [print_results, line 90] INFO: | Subject (.\output_genuine\gemini-1.5-pro-latest\test\)   |   Data Num |   Acc |   Std |   Var |
+|----------------------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology                         |       1020 | 0.526 | 0.494 | 0.244 |
+| Industry_Jargon                                          |        576 | 0.594 | 0.492 | 0.242 |
+| Standard_Nomenclature                                    |        444 | 0.439 | 0.497 | 0.247 |
+| Overall-Domain Knowledge                                 |       2338 | 0.592 | 0.49  | 0.24  |
+| Interior                                                 |        342 | 0.523 | 0.5   | 0.25  |
+| Materials                                                |        398 | 0.671 | 0.47  | 0.221 |
+| Safety_Management                                        |        353 | 0.592 | 0.492 | 0.242 |
+| Architectural_Planning                                   |        431 | 0.568 | 0.496 | 0.246 |
+| Construction_Management                                  |        480 | 0.579 | 0.494 | 0.244 |
+| Building_System                                          |        334 | 0.617 | 0.487 | 0.237 |
+| Overall-Domain Reasoning                                 |        108 | 0.528 | 0.502 | 0.252 |
+| Domain_Reasoning                                         |        108 | 0.528 | 0.502 | 0.252 |
+| Overall                                                  |       3667 | 0.576 | 0.49  | 0.241 |
+2024-11-05 18:33:57,806 [print_results, line 90] INFO: | Subject (.\output_genuine\gpt-4o-mini\val\)   |   Data Num |   Acc |   Std |   Var |
+|-----------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology              |        101 | 0.614 | 0.313 | 0.124 |
+| Industry_Jargon                               |         57 | 0.333 | 0.476 | 0.226 |
+| Standard_Nomenclature                         |         44 | 0.977 | 0.151 | 0.023 |
+| Overall-Domain Knowledge                      |        233 | 0.712 | 0.456 | 0.209 |
+| Interior                                      |         43 | 0.698 | 0.465 | 0.216 |
+| Materials                                     |         43 | 0.814 | 0.394 | 0.155 |
+| Safety_Management                             |         40 | 0.65  | 0.483 | 0.233 |
+| Architectural_Planning                        |         35 | 0.714 | 0.458 | 0.21  |
+| Construction_Management                       |         32 | 0.688 | 0.471 | 0.222 |
+| Building_System                               |         40 | 0.7   | 0.464 | 0.215 |
+| Overall-Domain Reasoning                      |          4 | 0.5   | 0.577 | 0.333 |
+| Domain_Reasoning                              |          4 | 0.5   | 0.577 | 0.333 |
+| Overall                                       |        363 | 0.672 | 0.445 | 0.209 |
+2024-11-05 18:34:00,387 [print_results, line 90] INFO: | Subject (.\output_genuine\gpt-4o-mini\test\)   |   Data Num |   Acc |   Std |   Var |
+|------------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology               |       1020 | 0.593 | 0.357 | 0.14  |
+| Industry_Jargon                                |        576 | 0.328 | 0.47  | 0.221 |
+| Standard_Nomenclature                          |        444 | 0.937 | 0.243 | 0.059 |
+| Overall-Domain Knowledge                       |       2338 | 0.634 | 0.478 | 0.229 |
+| Interior                                       |        342 | 0.5   | 0.501 | 0.251 |
+| Materials                                      |        398 | 0.736 | 0.441 | 0.195 |
+| Safety_Management                              |        353 | 0.62  | 0.486 | 0.236 |
+| Architectural_Planning                         |        431 | 0.636 | 0.482 | 0.232 |
+| Construction_Management                        |        480 | 0.644 | 0.479 | 0.23  |
+| Building_System                                |        334 | 0.65  | 0.478 | 0.228 |
+| Overall-Domain Reasoning                       |        108 | 0.463 | 0.501 | 0.251 |
+| Domain_Reasoning                               |        108 | 0.463 | 0.501 | 0.251 |
+| Overall                                        |       3667 | 0.609 | 0.458 | 0.215 |
+2024-11-05 18:46:15,450 [print_results, line 90] INFO: | Subject (.\output_genuine\gpt-4o\val\)   |   Data Num |   Acc |   Std |   Var |
+|------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology         |        101 | 0.683 | 0.25  | 0.125 |
+| Industry_Jargon                          |         57 | 0.439 | 0.501 | 0.251 |
+| Standard_Nomenclature                    |         44 | 1     | 0     | 0     |
+| Overall-Domain Knowledge                 |        233 | 0.803 | 0.395 | 0.158 |
+| Interior                                 |         43 | 0.721 | 0.454 | 0.206 |
+| Materials                                |         43 | 0.791 | 0.412 | 0.169 |
+| Safety_Management                        |         40 | 0.775 | 0.423 | 0.179 |
+| Architectural_Planning                   |         35 | 0.857 | 0.355 | 0.126 |
+| Construction_Management                  |         32 | 0.781 | 0.42  | 0.176 |
+| Building_System                          |         40 | 0.9   | 0.304 | 0.092 |
+| Overall-Domain Reasoning                 |          4 | 0.75  | 0.5   | 0.25  |
+| Domain_Reasoning                         |          4 | 0.75  | 0.5   | 0.25  |
+| Overall                                  |        363 | 0.76  | 0.384 | 0.168 |
+2024-11-05 18:46:18,043 [print_results, line 90] INFO: | Subject (.\output_genuine\gpt-4o\test\)   |   Data Num |   Acc |   Std |   Var |
+|-------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology          |        576 | 0.503 | 0.5   | 0.25  |
+| Industry_Jargon                           |        576 | 0.503 | 0.5   | 0.25  |
+| Overall-Domain Knowledge                  |       1985 | 0.764 | 0.419 | 0.177 |
+| Interior                                  |        342 | 0.64  | 0.481 | 0.231 |
+| Materials                                 |        398 | 0.844 | 0.363 | 0.132 |
+| Architectural_Planning                    |        431 | 0.787 | 0.41  | 0.168 |
+| Construction_Management                   |        480 | 0.748 | 0.435 | 0.189 |
+| Building_System                           |        334 | 0.79  | 0.408 | 0.166 |
+| Overall-Domain Reasoning                  |        108 | 0.611 | 0.49  | 0.24  |
+| Domain_Reasoning                          |        108 | 0.611 | 0.49  | 0.24  |
+| Overall                                   |       2870 | 0.697 | 0.446 | 0.201 |
+2024-11-05 20:48:42,873 [print_results, line 90] INFO: | Subject (.\output\claude-3-5-sonnet-20241022\test\)   |   Data Num |   Acc |   Std |   Var |
+|-------------------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology                      |        576 | 0.441 | 0.497 | 0.247 |
+| Industry_Jargon                                       |        576 | 0.441 | 0.497 | 0.247 |
+| Overall-Domain Knowledge                              |       2460 | 0.632 | 0.479 | 0.23  |
+| Interior                                              |        359 | 0.535 | 0.499 | 0.249 |
+| Materials                                             |        408 | 0.684 | 0.466 | 0.217 |
+| Architectural_Planning                                |        464 | 0.677 | 0.468 | 0.219 |
+| Construction_Management                               |        494 | 0.613 | 0.487 | 0.238 |
+| Structural_Engineering                                |        358 | 0.564 | 0.497 | 0.247 |
+| Building_System                                       |        377 | 0.703 | 0.458 | 0.209 |
+| Overall-Domain Reasoning                              |        258 | 0.624 | 0.485 | 0.236 |
+| Domain_Reasoning                                      |        258 | 0.624 | 0.485 | 0.236 |
+| Overall-Drawing Interpretation                        |        125 | 0.456 | 0.5   | 0.25  |
+| Drawing_Interpretation                                |        125 | 0.456 | 0.5   | 0.25  |
+| Overall                                               |       3419 | 0.593 | 0.484 | 0.235 |
+2024-11-05 21:44:02,365 [print_results, line 90] INFO: | Subject (.\output\gpt-4o\test\)   |   Data Num |   Acc |   Std |   Var |
+|-----------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology  |       1020 | 0.701 | 0.352 | 0.146 |
+| Industry_Jargon                   |        576 | 0.503 | 0.5   | 0.25  |
+| Standard_Nomenclature             |        444 | 0.957 | 0.203 | 0.041 |
+| Overall-Domain Knowledge          |       2841 | 0.694 | 0.45  | 0.204 |
+| Interior                          |        359 | 0.627 | 0.484 | 0.235 |
+| Materials                         |        408 | 0.831 | 0.375 | 0.141 |
+| Safety_Management                 |        381 | 0.656 | 0.476 | 0.226 |
+| Architectural_Planning            |        464 | 0.756 | 0.43  | 0.185 |
+| Construction_Management           |        494 | 0.737 | 0.441 | 0.194 |
+| Structural_Engineering            |        358 | 0.466 | 0.5   | 0.25  |
+| Building_System                   |        377 | 0.735 | 0.442 | 0.195 |
+| Overall-Domain Reasoning          |        258 | 0.438 | 0.497 | 0.247 |
+| Domain_Reasoning                  |        258 | 0.438 | 0.497 | 0.247 |
+| Overall-Drawing Interpretation    |        125 | 0.336 | 0.474 | 0.225 |
+| Drawing_Interpretation            |        125 | 0.336 | 0.474 | 0.225 |
+| Overall                           |       4244 | 0.67  | 0.438 | 0.199 |
+2024-11-05 21:47:45,857 [print_results, line 90] INFO: | Subject (.\output_genuine\gpt-4o\test\)   |   Data Num |   Acc |   Std |   Var |
+|-------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology          |       1020 | 0.701 | 0.352 | 0.146 |
+| Industry_Jargon                           |        576 | 0.503 | 0.5   | 0.25  |
+| Standard_Nomenclature                     |        444 | 0.957 | 0.203 | 0.041 |
+| Overall-Domain Knowledge                  |       2338 | 0.754 | 0.426 | 0.183 |
+| Interior                                  |        342 | 0.64  | 0.481 | 0.231 |
+| Materials                                 |        398 | 0.844 | 0.363 | 0.132 |
+| Safety_Management                         |        353 | 0.697 | 0.46  | 0.212 |
+| Architectural_Planning                    |        431 | 0.787 | 0.41  | 0.168 |
+| Construction_Management                   |        480 | 0.748 | 0.435 | 0.189 |
+| Building_System                           |        334 | 0.79  | 0.408 | 0.166 |
+| Overall-Domain Reasoning                  |        108 | 0.611 | 0.49  | 0.24  |
+| Domain_Reasoning                          |        108 | 0.611 | 0.49  | 0.24  |
+| Overall                                   |       3667 | 0.728 | 0.423 | 0.186 |
+2024-11-05 21:52:18,511 [print_results, line 90] INFO: | Subject (.\output_genuine\gpt-4\test\)   |   Data Num |   Acc |   Std |   Var |
+|------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology         |       1020 | 0.585 | 0.341 | 0.131 |
+| Industry_Jargon                          |        576 | 0.306 | 0.461 | 0.213 |
+| Standard_Nomenclature                    |        444 | 0.948 | 0.222 | 0.049 |
+| Overall-Domain Knowledge                 |       2338 | 0.646 | 0.474 | 0.225 |
+| Interior                                 |        342 | 0.512 | 0.501 | 0.251 |
+| Materials                                |        398 | 0.736 | 0.441 | 0.195 |
+| Safety_Management                        |        353 | 0.643 | 0.48  | 0.23  |
+| Architectural_Planning                   |        431 | 0.664 | 0.473 | 0.224 |
+| Construction_Management                  |        480 | 0.619 | 0.486 | 0.236 |
+| Building_System                          |        334 | 0.695 | 0.461 | 0.213 |
+| Overall-Domain Reasoning                 |        108 | 0.324 | 0.47  | 0.221 |
+| Domain_Reasoning                         |        108 | 0.324 | 0.47  | 0.221 |
+| Overall                                  |       3466 | 0.618 | 0.444 | 0.203 |
+2024-11-05 21:52:53,437 [print_results, line 90] INFO: | Subject (.\output_genuine\gpt-4\test\)   |   Data Num |   Acc |   Std |   Var |
+|------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology         |       1020 | 0.585 | 0.341 | 0.131 |
+| Industry_Jargon                          |        576 | 0.306 | 0.461 | 0.213 |
+| Standard_Nomenclature                    |        444 | 0.948 | 0.222 | 0.049 |
+| Overall-Domain Knowledge                 |       2338 | 0.646 | 0.474 | 0.225 |
+| Interior                                 |        342 | 0.512 | 0.501 | 0.251 |
+| Materials                                |        398 | 0.736 | 0.441 | 0.195 |
+| Safety_Management                        |        353 | 0.643 | 0.48  | 0.23  |
+| Architectural_Planning                   |        431 | 0.664 | 0.473 | 0.224 |
+| Construction_Management                  |        480 | 0.619 | 0.486 | 0.236 |
+| Building_System                          |        334 | 0.695 | 0.461 | 0.213 |
+| Overall-Domain Reasoning                 |        108 | 0.324 | 0.47  | 0.221 |
+| Domain_Reasoning                         |        108 | 0.324 | 0.47  | 0.221 |
+| Overall                                  |       3667 | 0.611 | 0.45  | 0.208 |
+2024-11-06 14:54:32,289 [print_results, line 90] INFO: | Subject (.\output\claude-3-5-sonnet-20241022\test)   |   Data Num |   Acc |   Std |   Var |
+|------------------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology                     |       1020 | 0.646 | 0.39  | 0.164 |
+| Industry_Jargon                                      |        576 | 0.441 | 0.497 | 0.247 |
+| Standard_Nomenclature                                |        444 | 0.912 | 0.283 | 0.08  |
+| Overall-Domain Knowledge                             |       2841 | 0.636 | 0.478 | 0.229 |
+| Interior                                             |        359 | 0.535 | 0.499 | 0.249 |
+| Materials                                            |        408 | 0.684 | 0.466 | 0.217 |
+| Safety_Management                                    |        381 | 0.661 | 0.474 | 0.225 |
+| Architectural_Planning                               |        464 | 0.677 | 0.468 | 0.219 |
+| Construction_Management                              |        494 | 0.613 | 0.487 | 0.238 |
+| Structural_Engineering                               |        358 | 0.564 | 0.497 | 0.247 |
+| Building_System                                      |        377 | 0.703 | 0.458 | 0.209 |
+| Overall-Domain Reasoning                             |        258 | 0.624 | 0.485 | 0.236 |
+| Domain_Reasoning                                     |        258 | 0.624 | 0.485 | 0.236 |
+| Overall-Drawing Interpretation                       |        125 | 0.456 | 0.5   | 0.25  |
+| Drawing_Interpretation                               |        125 | 0.456 | 0.5   | 0.25  |
+| Overall                                              |       4244 | 0.632 | 0.465 | 0.22  |
+2024-11-06 14:56:42,864 [print_results, line 90] INFO: | Subject (.\output_genuine\claude-3-5-sonnet-20241022\test)   |   Data Num |   Acc |   Std |   Var |
+|--------------------------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology                             |       1020 | 0.646 | 0.39  | 0.164 |
+| Industry_Jargon                                              |        576 | 0.441 | 0.497 | 0.247 |
+| Standard_Nomenclature                                        |        444 | 0.912 | 0.283 | 0.08  |
+| Overall-Domain Knowledge                                     |       2338 | 0.657 | 0.471 | 0.222 |
+| Interior                                                     |        342 | 0.541 | 0.499 | 0.249 |
+| Materials                                                    |        398 | 0.688 | 0.464 | 0.215 |
+| Safety_Management                                            |        353 | 0.686 | 0.465 | 0.216 |
+| Architectural_Planning                                       |        431 | 0.689 | 0.463 | 0.215 |
+| Construction_Management                                      |        480 | 0.619 | 0.486 | 0.236 |
+| Building_System                                              |        334 | 0.719 | 0.45  | 0.203 |
+| Overall-Domain Reasoning                                     |        108 | 0.713 | 0.454 | 0.207 |
+| Domain_Reasoning                                             |        108 | 0.713 | 0.454 | 0.207 |
+| Overall                                                      |       3667 | 0.656 | 0.454 | 0.209 |
+2024-11-06 14:58:48,432 [print_results, line 90] INFO: | Subject (.\output_genuine\claude-3-5-sonnet-20241022\val\)   |   Data Num |   Acc |   Std |   Var |
+|--------------------------------------------------------------+------------+-------+-------+-------|
+| Overall-Construction Terminology                             |        101 | 0.703 | 0.328 | 0.139 |
+| Industry_Jargon                                              |         57 | 0.491 | 0.504 | 0.254 |
+| Standard_Nomenclature                                        |         44 | 0.977 | 0.151 | 0.023 |
+| Overall-Domain Knowledge                                     |        233 | 0.708 | 0.454 | 0.207 |
+| Interior                                                     |         43 | 0.651 | 0.482 | 0.233 |
+| Materials                                                    |         43 | 0.628 | 0.489 | 0.239 |
+| Safety_Management                                            |         40 | 0.8   | 0.405 | 0.164 |
+| Architectural_Planning                                       |         35 | 0.771 | 0.426 | 0.182 |
+| Construction_Management                                      |         32 | 0.719 | 0.457 | 0.209 |
+| Building_System                                              |         40 | 0.7   | 0.464 | 0.215 |
+| Overall-Domain Reasoning                                     |          4 | 1     | 0     | 0     |
+| Domain_Reasoning                                             |          4 | 1     | 0     | 0     |
+| Overall                                                      |        363 | 0.708 | 0.385 | 0.175 |

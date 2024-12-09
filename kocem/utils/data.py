@@ -49,13 +49,6 @@ stream_handler.setFormatter(logging.Formatter(r'%(message)s'))
 logger.addHandler(stream_handler)
 
 
-"""
-# DATA SAVING
-def save_json(filename, ds):
-    with open(filename, 'w', encoding="utf-8") as f:
-        json.dump(ds, f, ensure_ascii=False, indent=4)
-"""
-
 def get_multi_choice_info(options):
     """
     Given the list of options for multiple choice question

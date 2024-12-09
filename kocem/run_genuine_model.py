@@ -24,32 +24,7 @@ from utils.data import load_yaml, construct_prompt, save_json, process_single_sa
 
 SampleType = Dict[str, Union[str, List[str], Dict[str, str]]]
 
-"""
-def run_model(args, samples, model, call_model_engine_fn=None, tokenizer=None, processor=None):
-    out_samples = dict()
-    with torch.no_grad():
-        for sample in tqdm(samples):
-            response = call_model_engine_fn(args, sample, model, tokenizer, processor)
-
-            if sample['question_type'] == 'multiple-choice':
-                pred_ans = parse_multi_choice_response(response, sample['all_choices'], sample['index2ans'])
-            else:  # open question
-                pred_ans = response
-            out_samples[sample['id']] = pred_ans
-    return out_samples
-
-def run_model(args, samples, model):
-    out_samples = dict()
-    for sample in tqdm(samples):
-        response =  call_engine_df(sample, model)  # call_model_engine_fn(args, sample, model, tokenizer, processor)
-
-        if sample['question_type'] == 'multiple-choice':
-            pred_ans = parse_multi_choice_response(response, sample['all_choices'], sample['index2ans'])
-        else:  # open question
-            pred_ans = response
-        out_samples[sample['id']] = pred_ans
-    return out_samples
-"""
+del CAT_SHORT2LONG["di"]
 
 def completion(sample: SampleType, model) -> SampleType:
     outkey_list = ["id", "question_type", "answer", "all_choices", "index2ans", "explanation"]
@@ -85,12 +60,12 @@ def run(samples, model) -> List[SampleType]:  # @pikaybh
 
 def main(llm: Optional[str] = "openai", 
         model: Optional[str] = "gpt-4o", 
-        data_path: Optional[str] = "pikaybh/KoCEM", 
+        data_path: Optional[str] = "pikaybh/KoCEM-genuine", 
         split: Optional[str] = 'dev', 
         subjects: Optional[List[str]] = ["ALL"],
         seed: Optional[int] = 42,
-        output_path: Optional[str] = "output"):
-
+        output_path: Optional[str] = "output_genuine"):
+    
     # subjects 문자열을 쉼표로 분리하여 리스트로 변환
     subject_list = list(subjects)
     

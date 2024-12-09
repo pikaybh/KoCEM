@@ -21,85 +21,24 @@ stream_handler.setFormatter(logging.Formatter(r'%(message)s'))
 logger.addHandler(stream_handler)
 
 
-def call_llava_engine_df(args, sample, model, tokenizer=None, processor=None):
-    from llava.constants import IMAGE_TOKEN_INDEX, DEFAULT_IMAGE_TOKEN, DEFAULT_IM_START_TOKEN, DEFAULT_IM_END_TOKEN
-    from llava.conversation import conv_templates, SeparatorStyle
-
-    def tokenizer_image_token(prompt, tokenizer, image_token_index=IMAGE_TOKEN_INDEX, return_tensors=None):
-        prompt_chunks = [tokenizer(chunk).input_ids for chunk in prompt.split('<image>')]
-
-        def insert_separator(X, sep):
-            return [ele for sublist in zip(X, [sep] * len(X)) for ele in sublist][:-1]
-
-        input_ids = []
-        offset = 0
-        if len(prompt_chunks) > 0 and len(prompt_chunks[0]) > 0 and prompt_chunks[0][0] == tokenizer.bos_token_id:
-            offset = 1
-            input_ids.append(prompt_chunks[0][0])
-
-        for x in insert_separator(prompt_chunks, [image_token_index] * (offset + 1)):
-            input_ids.extend(x[offset:])
-
-        if return_tensors is not None:
-            if return_tensors == 'pt':
-                return torch.tensor(input_ids, dtype=torch.long)
-            raise ValueError(f'Unsupported tensor type: {return_tensors}')
-        return input_ids
-
-    def deal_with_prompt(input_text, mm_use_im_start_end):
-        qs = input_text
-        if mm_use_im_start_end:
-            qs = DEFAULT_IM_START_TOKEN + DEFAULT_IMAGE_TOKEN + DEFAULT_IM_END_TOKEN + '\n' + qs
-        else:
-            qs = DEFAULT_IMAGE_TOKEN + '\n' + qs
-        return qs
-
-    prompt = sample['final_input_prompt']
-    prompt = deal_with_prompt(prompt, model.config.mm_use_im_start_end)
-    conv = conv_templates['vicuna_v1'].copy()
-    conv.append_message(conv.roles[0], prompt)
-    conv.append_message(conv.roles[1], None)
-    prompt = conv.get_prompt()
-    input_ids = tokenizer_image_token(prompt, tokenizer, IMAGE_TOKEN_INDEX, return_tensors='pt').unsqueeze(0).cuda()
-    image = sample['image']
-    if image is not None:
-        output_ids = model.generate(
-            input_ids,
-            images=image.unsqueeze(0).half().cuda(),
-            do_sample=True,
-            temperature=1,
-            top_p=None,
-            num_beams=5,
-            max_new_tokens=128,
-            use_cache=True)
-
-        input_token_len = input_ids.shape[1]
-        n_diff_input_output = (input_ids != output_ids[:, :input_token_len]).sum().item()
-        if n_diff_input_output > 0:
-            print(f'[Warning] {n_diff_input_output} output_ids are not the same as the input_ids')
-        response = tokenizer.batch_decode(output_ids[:, input_token_len:], skip_special_tokens=True)[0]
-    else:  # multiple images actually
-        if sample['question_type'] == 'multiple-choice':
-            all_choices = sample['all_choices']
-            response = random.choice(all_choices)
-        else:
-            response = 'INVALID GENERATION FOR MULTIPLE IMAGE INPUTS'
-
-    return response
-
-
-def llava_image_processor(raw_image, vis_processors=None):
-    image_tensor = vis_processors.preprocess(raw_image, return_tensors='pt')['pixel_values'][0]
-    return image_tensor
-
-
-
-########################################################################
-
-
 CHECK_MODEL = {
     "machine" : ["canny"],
-    "openai" : ["gpt-4o"],
+    "openai" : [
+        "gpt-4o",                       # 100t ?
+        "gpt-4o-mini",
+        "gpt-4-turbo",
+        "gpt-4",                        # 1t ?
+        "gpt-3.5-turbo"                 # 175b
+    ],
+    "google" : [
+        # "gemini-1.0-ultra-latest",      # Undisclosed (2024-11-04)
+        "gemini-1.5-pro-latest",          # 600b
+        "gemini-1.0-pro-latest",          # None Multimodal
+        "gemini-1.5-flash-latest",        # >= 8b
+        # "gemini-1.5-flash-8b-latest",   # 8b
+        # "gemini-1.0-nano-latest",       # 1.8b
+    ],
+    "anthropic" : ["claude-3-5-sonnet-20241022"],
     "hf" : []
 }
 
@@ -109,14 +48,14 @@ def call_engine_df(sample, model):
     image = sample['image']
     if image:
         response = model(prompt, image=image)
-        logger.debug(f"{sample['id']}: vlm.")
+        # logger.debug(f"{sample['id']}: vlm.")
     elif prompt:
         response = model(prompt)
-        logger.debug(f"{sample['id']}: lm.")
+        # logger.debug(f"{sample['id']}: lm.")
     else:  # multiple images actually
         if sample['question_type'] == 'multiple-choice':
             response = random.choice(sample['all_choices'])
-            logger.debug(f"{sample['id']}: random choice.")
+            # logger.debug(f"{sample['id']}: random choice.")
         else:
             response = 'INVALID GENERATION FOR MULTIPLE IMAGE INPUTS'
 

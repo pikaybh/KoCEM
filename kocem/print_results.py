@@ -30,6 +30,10 @@ logger.addHandler(stream_handler)
 
 
 def main(path: Optional[str] = "output/blip2_flant5xxl"):
+    if "genuine" in path.split('/')[0]:
+        DOMAIN_CAT2SUB_CAT["Domain Knowledge"].remove("Structural_Engineering")
+        del DOMAIN_CAT2SUB_CAT["Drawing Interpretation"]
+
     # load all results
     all_results = {}
     for cat_folder_name in os.listdir(path):
