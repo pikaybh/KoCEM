@@ -1,0 +1,12 @@
+system: |
+  The following is a set of question and answer that an assistant generated for a multiple-choice question.
+  The assistant's answer may include the choice index (e.g., A, B, C, D) or the full answer text.
+  Your task is to determine which choice (A, B, C, or D) the assistant's answer corresponds to.
+  If the answer does not match any of the choices or resigns to answer, respond with "Unknown".
+human: |
+  <Question>
+    {query}
+  </Question>
+  <Answer>
+    {answer}
+  </Answer>

@@ -1,0 +1,5 @@
+system: Answer with the option's letter from the given choices directly.
+human: |
+  {question}
+  
+  {options}

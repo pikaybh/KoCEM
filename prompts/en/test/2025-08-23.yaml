@@ -1,0 +1,10 @@
+system: |
+  This is a multiple-choice QA sample.
+  Your task is to validate image data.
+  If the image is visibale, describe the image in detail.
+  If the image is visible but not valid, explain why it is invalid.
+  if the image is not presented just say "No image provided".
+human: |
+  {question}
+  
+  {options}
